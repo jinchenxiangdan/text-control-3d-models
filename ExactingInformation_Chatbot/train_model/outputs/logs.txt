@@ -1,0 +1,2146 @@
+[20:19:11] [Model]: Loading t5-base...                     <ipython-input-10-574132b7a0b1>:16
+                                                                                             
+[20:19:32] [Data]: Reading data...                         <ipython-input-10-574132b7a0b1>:27
+                                                                                             
+FULL Dataset: (297, 2)
+TRAIN Dataset: (238, 2)
+TEST Dataset: (59, 2)
+
+           [Initiating Fine Tuning]...                     <ipython-input-10-574132b7a0b1>:85
+                                                                                             
+                      Training Status                       
++----------------------------------------------------------+
+|Epoch | Steps |                    Loss                   |
+|------+-------+-------------------------------------------|
+|  0   |   0   | tensor(8.4754, grad_fn=<NllLossBackward0>)|
++----------------------------------------------------------+
+                      Training Status                       
++----------------------------------------------------------+
+|Epoch | Steps |                    Loss                   |
+|------+-------+-------------------------------------------|
+|  0   |   0   | tensor(8.4754, grad_fn=<NllLossBackward0>)|
+|  0   |  10   | tensor(1.7911, grad_fn=<NllLossBackward0>)|
++----------------------------------------------------------+
+                      Training Status                       
++----------------------------------------------------------+
+|Epoch | Steps |                    Loss                   |
+|------+-------+-------------------------------------------|
+|  0   |   0   | tensor(8.4754, grad_fn=<NllLossBackward0>)|
+|  0   |  10   | tensor(1.7911, grad_fn=<NllLossBackward0>)|
+|  1   |   0   | tensor(1.6946, grad_fn=<NllLossBackward0>)|
++----------------------------------------------------------+
+                      Training Status                       
++----------------------------------------------------------+
+|Epoch | Steps |                    Loss                   |
+|------+-------+-------------------------------------------|
+|  0   |   0   | tensor(8.4754, grad_fn=<NllLossBackward0>)|
+|  0   |  10   | tensor(1.7911, grad_fn=<NllLossBackward0>)|
+|  1   |   0   | tensor(1.6946, grad_fn=<NllLossBackward0>)|
+|  1   |  10   | tensor(1.0421, grad_fn=<NllLossBackward0>)|
++----------------------------------------------------------+
+                      Training Status                       
++----------------------------------------------------------+
+|Epoch | Steps |                    Loss                   |
+|------+-------+-------------------------------------------|
+|  0   |   0   | tensor(8.4754, grad_fn=<NllLossBackward0>)|
+|  0   |  10   | tensor(1.7911, grad_fn=<NllLossBackward0>)|
+|  1   |   0   | tensor(1.6946, grad_fn=<NllLossBackward0>)|
+|  1   |  10   | tensor(1.0421, grad_fn=<NllLossBackward0>)|
+|  2   |   0   | tensor(0.3912, grad_fn=<NllLossBackward0>)|
++----------------------------------------------------------+
+                      Training Status                       
++----------------------------------------------------------+
+|Epoch | Steps |                    Loss                   |
+|------+-------+-------------------------------------------|
+|  0   |   0   | tensor(8.4754, grad_fn=<NllLossBackward0>)|
+|  0   |  10   | tensor(1.7911, grad_fn=<NllLossBackward0>)|
+|  1   |   0   | tensor(1.6946, grad_fn=<NllLossBackward0>)|
+|  1   |  10   | tensor(1.0421, grad_fn=<NllLossBackward0>)|
+|  2   |   0   | tensor(0.3912, grad_fn=<NllLossBackward0>)|
+|  2   |  10   | tensor(0.5993, grad_fn=<NllLossBackward0>)|
++----------------------------------------------------------+
+                      Training Status                       
++----------------------------------------------------------+
+|Epoch | Steps |                    Loss                   |
+|------+-------+-------------------------------------------|
+|  0   |   0   | tensor(8.4754, grad_fn=<NllLossBackward0>)|
+|  0   |  10   | tensor(1.7911, grad_fn=<NllLossBackward0>)|
+|  1   |   0   | tensor(1.6946, grad_fn=<NllLossBackward0>)|
+|  1   |  10   | tensor(1.0421, grad_fn=<NllLossBackward0>)|
+|  2   |   0   | tensor(0.3912, grad_fn=<NllLossBackward0>)|
+|  2   |  10   | tensor(0.5993, grad_fn=<NllLossBackward0>)|
+|  3   |   0   | tensor(0.2603, grad_fn=<NllLossBackward0>)|
++----------------------------------------------------------+
+                      Training Status                       
++----------------------------------------------------------+
+|Epoch | Steps |                    Loss                   |
+|------+-------+-------------------------------------------|
+|  0   |   0   | tensor(8.4754, grad_fn=<NllLossBackward0>)|
+|  0   |  10   | tensor(1.7911, grad_fn=<NllLossBackward0>)|
+|  1   |   0   | tensor(1.6946, grad_fn=<NllLossBackward0>)|
+|  1   |  10   | tensor(1.0421, grad_fn=<NllLossBackward0>)|
+|  2   |   0   | tensor(0.3912, grad_fn=<NllLossBackward0>)|
+|  2   |  10   | tensor(0.5993, grad_fn=<NllLossBackward0>)|
+|  3   |   0   | tensor(0.2603, grad_fn=<NllLossBackward0>)|
+|  3   |  10   | tensor(0.2848, grad_fn=<NllLossBackward0>)|
++----------------------------------------------------------+
+                      Training Status                       
++----------------------------------------------------------+
+|Epoch | Steps |                    Loss                   |
+|------+-------+-------------------------------------------|
+|  0   |   0   | tensor(8.4754, grad_fn=<NllLossBackward0>)|
+|  0   |  10   | tensor(1.7911, grad_fn=<NllLossBackward0>)|
+|  1   |   0   | tensor(1.6946, grad_fn=<NllLossBackward0>)|
+|  1   |  10   | tensor(1.0421, grad_fn=<NllLossBackward0>)|
+|  2   |   0   | tensor(0.3912, grad_fn=<NllLossBackward0>)|
+|  2   |  10   | tensor(0.5993, grad_fn=<NllLossBackward0>)|
+|  3   |   0   | tensor(0.2603, grad_fn=<NllLossBackward0>)|
+|  3   |  10   | tensor(0.2848, grad_fn=<NllLossBackward0>)|
+|  4   |   0   | tensor(0.3090, grad_fn=<NllLossBackward0>)|
++----------------------------------------------------------+
+                      Training Status                       
++----------------------------------------------------------+
+|Epoch | Steps |                    Loss                   |
+|------+-------+-------------------------------------------|
+|  0   |   0   | tensor(8.4754, grad_fn=<NllLossBackward0>)|
+|  0   |  10   | tensor(1.7911, grad_fn=<NllLossBackward0>)|
+|  1   |   0   | tensor(1.6946, grad_fn=<NllLossBackward0>)|
+|  1   |  10   | tensor(1.0421, grad_fn=<NllLossBackward0>)|
+|  2   |   0   | tensor(0.3912, grad_fn=<NllLossBackward0>)|
+|  2   |  10   | tensor(0.5993, grad_fn=<NllLossBackward0>)|
+|  3   |   0   | tensor(0.2603, grad_fn=<NllLossBackward0>)|
+|  3   |  10   | tensor(0.2848, grad_fn=<NllLossBackward0>)|
+|  4   |   0   | tensor(0.3090, grad_fn=<NllLossBackward0>)|
+|  4   |  10   | tensor(0.2859, grad_fn=<NllLossBackward0>)|
++----------------------------------------------------------+
+                      Training Status                       
++----------------------------------------------------------+
+|Epoch | Steps |                    Loss                   |
+|------+-------+-------------------------------------------|
+|  0   |   0   | tensor(8.4754, grad_fn=<NllLossBackward0>)|
+|  0   |  10   | tensor(1.7911, grad_fn=<NllLossBackward0>)|
+|  1   |   0   | tensor(1.6946, grad_fn=<NllLossBackward0>)|
+|  1   |  10   | tensor(1.0421, grad_fn=<NllLossBackward0>)|
+|  2   |   0   | tensor(0.3912, grad_fn=<NllLossBackward0>)|
+|  2   |  10   | tensor(0.5993, grad_fn=<NllLossBackward0>)|
+|  3   |   0   | tensor(0.2603, grad_fn=<NllLossBackward0>)|
+|  3   |  10   | tensor(0.2848, grad_fn=<NllLossBackward0>)|
+|  4   |   0   | tensor(0.3090, grad_fn=<NllLossBackward0>)|
+|  4   |  10   | tensor(0.2859, grad_fn=<NllLossBackward0>)|
+|  5   |   0   | tensor(0.0199, grad_fn=<NllLossBackward0>)|
++----------------------------------------------------------+
+                      Training Status                       
++----------------------------------------------------------+
+|Epoch | Steps |                    Loss                   |
+|------+-------+-------------------------------------------|
+|  0   |   0   | tensor(8.4754, grad_fn=<NllLossBackward0>)|
+|  0   |  10   | tensor(1.7911, grad_fn=<NllLossBackward0>)|
+|  1   |   0   | tensor(1.6946, grad_fn=<NllLossBackward0>)|
+|  1   |  10   | tensor(1.0421, grad_fn=<NllLossBackward0>)|
+|  2   |   0   | tensor(0.3912, grad_fn=<NllLossBackward0>)|
+|  2   |  10   | tensor(0.5993, grad_fn=<NllLossBackward0>)|
+|  3   |   0   | tensor(0.2603, grad_fn=<NllLossBackward0>)|
+|  3   |  10   | tensor(0.2848, grad_fn=<NllLossBackward0>)|
+|  4   |   0   | tensor(0.3090, grad_fn=<NllLossBackward0>)|
+|  4   |  10   | tensor(0.2859, grad_fn=<NllLossBackward0>)|
+|  5   |   0   | tensor(0.0199, grad_fn=<NllLossBackward0>)|
+|  5   |  10   | tensor(0.1719, grad_fn=<NllLossBackward0>)|
++----------------------------------------------------------+
+                      Training Status                       
++----------------------------------------------------------+
+|Epoch | Steps |                    Loss                   |
+|------+-------+-------------------------------------------|
+|  0   |   0   | tensor(8.4754, grad_fn=<NllLossBackward0>)|
+|  0   |  10   | tensor(1.7911, grad_fn=<NllLossBackward0>)|
+|  1   |   0   | tensor(1.6946, grad_fn=<NllLossBackward0>)|
+|  1   |  10   | tensor(1.0421, grad_fn=<NllLossBackward0>)|
+|  2   |   0   | tensor(0.3912, grad_fn=<NllLossBackward0>)|
+|  2   |  10   | tensor(0.5993, grad_fn=<NllLossBackward0>)|
+|  3   |   0   | tensor(0.2603, grad_fn=<NllLossBackward0>)|
+|  3   |  10   | tensor(0.2848, grad_fn=<NllLossBackward0>)|
+|  4   |   0   | tensor(0.3090, grad_fn=<NllLossBackward0>)|
+|  4   |  10   | tensor(0.2859, grad_fn=<NllLossBackward0>)|
+|  5   |   0   | tensor(0.0199, grad_fn=<NllLossBackward0>)|
+|  5   |  10   | tensor(0.1719, grad_fn=<NllLossBackward0>)|
+|  6   |   0   | tensor(0.1313, grad_fn=<NllLossBackward0>)|
++----------------------------------------------------------+
+                      Training Status                       
++----------------------------------------------------------+
+|Epoch | Steps |                    Loss                   |
+|------+-------+-------------------------------------------|
+|  0   |   0   | tensor(8.4754, grad_fn=<NllLossBackward0>)|
+|  0   |  10   | tensor(1.7911, grad_fn=<NllLossBackward0>)|
+|  1   |   0   | tensor(1.6946, grad_fn=<NllLossBackward0>)|
+|  1   |  10   | tensor(1.0421, grad_fn=<NllLossBackward0>)|
+|  2   |   0   | tensor(0.3912, grad_fn=<NllLossBackward0>)|
+|  2   |  10   | tensor(0.5993, grad_fn=<NllLossBackward0>)|
+|  3   |   0   | tensor(0.2603, grad_fn=<NllLossBackward0>)|
+|  3   |  10   | tensor(0.2848, grad_fn=<NllLossBackward0>)|
+|  4   |   0   | tensor(0.3090, grad_fn=<NllLossBackward0>)|
+|  4   |  10   | tensor(0.2859, grad_fn=<NllLossBackward0>)|
+|  5   |   0   | tensor(0.0199, grad_fn=<NllLossBackward0>)|
+|  5   |  10   | tensor(0.1719, grad_fn=<NllLossBackward0>)|
+|  6   |   0   | tensor(0.1313, grad_fn=<NllLossBackward0>)|
+|  6   |  10   | tensor(0.0658, grad_fn=<NllLossBackward0>)|
++----------------------------------------------------------+
+                      Training Status                       
++----------------------------------------------------------+
+|Epoch | Steps |                    Loss                   |
+|------+-------+-------------------------------------------|
+|  0   |   0   | tensor(8.4754, grad_fn=<NllLossBackward0>)|
+|  0   |  10   | tensor(1.7911, grad_fn=<NllLossBackward0>)|
+|  1   |   0   | tensor(1.6946, grad_fn=<NllLossBackward0>)|
+|  1   |  10   | tensor(1.0421, grad_fn=<NllLossBackward0>)|
+|  2   |   0   | tensor(0.3912, grad_fn=<NllLossBackward0>)|
+|  2   |  10   | tensor(0.5993, grad_fn=<NllLossBackward0>)|
+|  3   |   0   | tensor(0.2603, grad_fn=<NllLossBackward0>)|
+|  3   |  10   | tensor(0.2848, grad_fn=<NllLossBackward0>)|
+|  4   |   0   | tensor(0.3090, grad_fn=<NllLossBackward0>)|
+|  4   |  10   | tensor(0.2859, grad_fn=<NllLossBackward0>)|
+|  5   |   0   | tensor(0.0199, grad_fn=<NllLossBackward0>)|
+|  5   |  10   | tensor(0.1719, grad_fn=<NllLossBackward0>)|
+|  6   |   0   | tensor(0.1313, grad_fn=<NllLossBackward0>)|
+|  6   |  10   | tensor(0.0658, grad_fn=<NllLossBackward0>)|
+|  7   |   0   | tensor(0.0306, grad_fn=<NllLossBackward0>)|
++----------------------------------------------------------+
+                      Training Status                       
++----------------------------------------------------------+
+|Epoch | Steps |                    Loss                   |
+|------+-------+-------------------------------------------|
+|  0   |   0   | tensor(8.4754, grad_fn=<NllLossBackward0>)|
+|  0   |  10   | tensor(1.7911, grad_fn=<NllLossBackward0>)|
+|  1   |   0   | tensor(1.6946, grad_fn=<NllLossBackward0>)|
+|  1   |  10   | tensor(1.0421, grad_fn=<NllLossBackward0>)|
+|  2   |   0   | tensor(0.3912, grad_fn=<NllLossBackward0>)|
+|  2   |  10   | tensor(0.5993, grad_fn=<NllLossBackward0>)|
+|  3   |   0   | tensor(0.2603, grad_fn=<NllLossBackward0>)|
+|  3   |  10   | tensor(0.2848, grad_fn=<NllLossBackward0>)|
+|  4   |   0   | tensor(0.3090, grad_fn=<NllLossBackward0>)|
+|  4   |  10   | tensor(0.2859, grad_fn=<NllLossBackward0>)|
+|  5   |   0   | tensor(0.0199, grad_fn=<NllLossBackward0>)|
+|  5   |  10   | tensor(0.1719, grad_fn=<NllLossBackward0>)|
+|  6   |   0   | tensor(0.1313, grad_fn=<NllLossBackward0>)|
+|  6   |  10   | tensor(0.0658, grad_fn=<NllLossBackward0>)|
+|  7   |   0   | tensor(0.0306, grad_fn=<NllLossBackward0>)|
+|  7   |  10   | tensor(0.0385, grad_fn=<NllLossBackward0>)|
++----------------------------------------------------------+
+                      Training Status                       
++----------------------------------------------------------+
+|Epoch | Steps |                    Loss                   |
+|------+-------+-------------------------------------------|
+|  0   |   0   | tensor(8.4754, grad_fn=<NllLossBackward0>)|
+|  0   |  10   | tensor(1.7911, grad_fn=<NllLossBackward0>)|
+|  1   |   0   | tensor(1.6946, grad_fn=<NllLossBackward0>)|
+|  1   |  10   | tensor(1.0421, grad_fn=<NllLossBackward0>)|
+|  2   |   0   | tensor(0.3912, grad_fn=<NllLossBackward0>)|
+|  2   |  10   | tensor(0.5993, grad_fn=<NllLossBackward0>)|
+|  3   |   0   | tensor(0.2603, grad_fn=<NllLossBackward0>)|
+|  3   |  10   | tensor(0.2848, grad_fn=<NllLossBackward0>)|
+|  4   |   0   | tensor(0.3090, grad_fn=<NllLossBackward0>)|
+|  4   |  10   | tensor(0.2859, grad_fn=<NllLossBackward0>)|
+|  5   |   0   | tensor(0.0199, grad_fn=<NllLossBackward0>)|
+|  5   |  10   | tensor(0.1719, grad_fn=<NllLossBackward0>)|
+|  6   |   0   | tensor(0.1313, grad_fn=<NllLossBackward0>)|
+|  6   |  10   | tensor(0.0658, grad_fn=<NllLossBackward0>)|
+|  7   |   0   | tensor(0.0306, grad_fn=<NllLossBackward0>)|
+|  7   |  10   | tensor(0.0385, grad_fn=<NllLossBackward0>)|
+|  8   |   0   | tensor(0.0441, grad_fn=<NllLossBackward0>)|
++----------------------------------------------------------+
+                      Training Status                       
++----------------------------------------------------------+
+|Epoch | Steps |                    Loss                   |
+|------+-------+-------------------------------------------|
+|  0   |   0   | tensor(8.4754, grad_fn=<NllLossBackward0>)|
+|  0   |  10   | tensor(1.7911, grad_fn=<NllLossBackward0>)|
+|  1   |   0   | tensor(1.6946, grad_fn=<NllLossBackward0>)|
+|  1   |  10   | tensor(1.0421, grad_fn=<NllLossBackward0>)|
+|  2   |   0   | tensor(0.3912, grad_fn=<NllLossBackward0>)|
+|  2   |  10   | tensor(0.5993, grad_fn=<NllLossBackward0>)|
+|  3   |   0   | tensor(0.2603, grad_fn=<NllLossBackward0>)|
+|  3   |  10   | tensor(0.2848, grad_fn=<NllLossBackward0>)|
+|  4   |   0   | tensor(0.3090, grad_fn=<NllLossBackward0>)|
+|  4   |  10   | tensor(0.2859, grad_fn=<NllLossBackward0>)|
+|  5   |   0   | tensor(0.0199, grad_fn=<NllLossBackward0>)|
+|  5   |  10   | tensor(0.1719, grad_fn=<NllLossBackward0>)|
+|  6   |   0   | tensor(0.1313, grad_fn=<NllLossBackward0>)|
+|  6   |  10   | tensor(0.0658, grad_fn=<NllLossBackward0>)|
+|  7   |   0   | tensor(0.0306, grad_fn=<NllLossBackward0>)|
+|  7   |  10   | tensor(0.0385, grad_fn=<NllLossBackward0>)|
+|  8   |   0   | tensor(0.0441, grad_fn=<NllLossBackward0>)|
+|  8   |  10   | tensor(0.0138, grad_fn=<NllLossBackward0>)|
++----------------------------------------------------------+
+                      Training Status                       
++----------------------------------------------------------+
+|Epoch | Steps |                    Loss                   |
+|------+-------+-------------------------------------------|
+|  0   |   0   | tensor(8.4754, grad_fn=<NllLossBackward0>)|
+|  0   |  10   | tensor(1.7911, grad_fn=<NllLossBackward0>)|
+|  1   |   0   | tensor(1.6946, grad_fn=<NllLossBackward0>)|
+|  1   |  10   | tensor(1.0421, grad_fn=<NllLossBackward0>)|
+|  2   |   0   | tensor(0.3912, grad_fn=<NllLossBackward0>)|
+|  2   |  10   | tensor(0.5993, grad_fn=<NllLossBackward0>)|
+|  3   |   0   | tensor(0.2603, grad_fn=<NllLossBackward0>)|
+|  3   |  10   | tensor(0.2848, grad_fn=<NllLossBackward0>)|
+|  4   |   0   | tensor(0.3090, grad_fn=<NllLossBackward0>)|
+|  4   |  10   | tensor(0.2859, grad_fn=<NllLossBackward0>)|
+|  5   |   0   | tensor(0.0199, grad_fn=<NllLossBackward0>)|
+|  5   |  10   | tensor(0.1719, grad_fn=<NllLossBackward0>)|
+|  6   |   0   | tensor(0.1313, grad_fn=<NllLossBackward0>)|
+|  6   |  10   | tensor(0.0658, grad_fn=<NllLossBackward0>)|
+|  7   |   0   | tensor(0.0306, grad_fn=<NllLossBackward0>)|
+|  7   |  10   | tensor(0.0385, grad_fn=<NllLossBackward0>)|
+|  8   |   0   | tensor(0.0441, grad_fn=<NllLossBackward0>)|
+|  8   |  10   | tensor(0.0138, grad_fn=<NllLossBackward0>)|
+|  9   |   0   | tensor(0.0702, grad_fn=<NllLossBackward0>)|
++----------------------------------------------------------+
+                      Training Status                       
++----------------------------------------------------------+
+|Epoch | Steps |                    Loss                   |
+|------+-------+-------------------------------------------|
+|  0   |   0   | tensor(8.4754, grad_fn=<NllLossBackward0>)|
+|  0   |  10   | tensor(1.7911, grad_fn=<NllLossBackward0>)|
+|  1   |   0   | tensor(1.6946, grad_fn=<NllLossBackward0>)|
+|  1   |  10   | tensor(1.0421, grad_fn=<NllLossBackward0>)|
+|  2   |   0   | tensor(0.3912, grad_fn=<NllLossBackward0>)|
+|  2   |  10   | tensor(0.5993, grad_fn=<NllLossBackward0>)|
+|  3   |   0   | tensor(0.2603, grad_fn=<NllLossBackward0>)|
+|  3   |  10   | tensor(0.2848, grad_fn=<NllLossBackward0>)|
+|  4   |   0   | tensor(0.3090, grad_fn=<NllLossBackward0>)|
+|  4   |  10   | tensor(0.2859, grad_fn=<NllLossBackward0>)|
+|  5   |   0   | tensor(0.0199, grad_fn=<NllLossBackward0>)|
+|  5   |  10   | tensor(0.1719, grad_fn=<NllLossBackward0>)|
+|  6   |   0   | tensor(0.1313, grad_fn=<NllLossBackward0>)|
+|  6   |  10   | tensor(0.0658, grad_fn=<NllLossBackward0>)|
+|  7   |   0   | tensor(0.0306, grad_fn=<NllLossBackward0>)|
+|  7   |  10   | tensor(0.0385, grad_fn=<NllLossBackward0>)|
+|  8   |   0   | tensor(0.0441, grad_fn=<NllLossBackward0>)|
+|  8   |  10   | tensor(0.0138, grad_fn=<NllLossBackward0>)|
+|  9   |   0   | tensor(0.0702, grad_fn=<NllLossBackward0>)|
+|  9   |  10   | tensor(0.0079, grad_fn=<NllLossBackward0>)|
++----------------------------------------------------------+
+                      Training Status                       
++----------------------------------------------------------+
+|Epoch | Steps |                    Loss                   |
+|------+-------+-------------------------------------------|
+|  0   |   0   | tensor(8.4754, grad_fn=<NllLossBackward0>)|
+|  0   |  10   | tensor(1.7911, grad_fn=<NllLossBackward0>)|
+|  1   |   0   | tensor(1.6946, grad_fn=<NllLossBackward0>)|
+|  1   |  10   | tensor(1.0421, grad_fn=<NllLossBackward0>)|
+|  2   |   0   | tensor(0.3912, grad_fn=<NllLossBackward0>)|
+|  2   |  10   | tensor(0.5993, grad_fn=<NllLossBackward0>)|
+|  3   |   0   | tensor(0.2603, grad_fn=<NllLossBackward0>)|
+|  3   |  10   | tensor(0.2848, grad_fn=<NllLossBackward0>)|
+|  4   |   0   | tensor(0.3090, grad_fn=<NllLossBackward0>)|
+|  4   |  10   | tensor(0.2859, grad_fn=<NllLossBackward0>)|
+|  5   |   0   | tensor(0.0199, grad_fn=<NllLossBackward0>)|
+|  5   |  10   | tensor(0.1719, grad_fn=<NllLossBackward0>)|
+|  6   |   0   | tensor(0.1313, grad_fn=<NllLossBackward0>)|
+|  6   |  10   | tensor(0.0658, grad_fn=<NllLossBackward0>)|
+|  7   |   0   | tensor(0.0306, grad_fn=<NllLossBackward0>)|
+|  7   |  10   | tensor(0.0385, grad_fn=<NllLossBackward0>)|
+|  8   |   0   | tensor(0.0441, grad_fn=<NllLossBackward0>)|
+|  8   |  10   | tensor(0.0138, grad_fn=<NllLossBackward0>)|
+|  9   |   0   | tensor(0.0702, grad_fn=<NllLossBackward0>)|
+|  9   |  10   | tensor(0.0079, grad_fn=<NllLossBackward0>)|
+| 10   |   0   | tensor(0.0040, grad_fn=<NllLossBackward0>)|
++----------------------------------------------------------+
+                      Training Status                       
++----------------------------------------------------------+
+|Epoch | Steps |                    Loss                   |
+|------+-------+-------------------------------------------|
+|  0   |   0   | tensor(8.4754, grad_fn=<NllLossBackward0>)|
+|  0   |  10   | tensor(1.7911, grad_fn=<NllLossBackward0>)|
+|  1   |   0   | tensor(1.6946, grad_fn=<NllLossBackward0>)|
+|  1   |  10   | tensor(1.0421, grad_fn=<NllLossBackward0>)|
+|  2   |   0   | tensor(0.3912, grad_fn=<NllLossBackward0>)|
+|  2   |  10   | tensor(0.5993, grad_fn=<NllLossBackward0>)|
+|  3   |   0   | tensor(0.2603, grad_fn=<NllLossBackward0>)|
+|  3   |  10   | tensor(0.2848, grad_fn=<NllLossBackward0>)|
+|  4   |   0   | tensor(0.3090, grad_fn=<NllLossBackward0>)|
+|  4   |  10   | tensor(0.2859, grad_fn=<NllLossBackward0>)|
+|  5   |   0   | tensor(0.0199, grad_fn=<NllLossBackward0>)|
+|  5   |  10   | tensor(0.1719, grad_fn=<NllLossBackward0>)|
+|  6   |   0   | tensor(0.1313, grad_fn=<NllLossBackward0>)|
+|  6   |  10   | tensor(0.0658, grad_fn=<NllLossBackward0>)|
+|  7   |   0   | tensor(0.0306, grad_fn=<NllLossBackward0>)|
+|  7   |  10   | tensor(0.0385, grad_fn=<NllLossBackward0>)|
+|  8   |   0   | tensor(0.0441, grad_fn=<NllLossBackward0>)|
+|  8   |  10   | tensor(0.0138, grad_fn=<NllLossBackward0>)|
+|  9   |   0   | tensor(0.0702, grad_fn=<NllLossBackward0>)|
+|  9   |  10   | tensor(0.0079, grad_fn=<NllLossBackward0>)|
+| 10   |   0   | tensor(0.0040, grad_fn=<NllLossBackward0>)|
+| 10   |  10   | tensor(0.0175, grad_fn=<NllLossBackward0>)|
++----------------------------------------------------------+
+                      Training Status                       
++----------------------------------------------------------+
+|Epoch | Steps |                    Loss                   |
+|------+-------+-------------------------------------------|
+|  0   |   0   | tensor(8.4754, grad_fn=<NllLossBackward0>)|
+|  0   |  10   | tensor(1.7911, grad_fn=<NllLossBackward0>)|
+|  1   |   0   | tensor(1.6946, grad_fn=<NllLossBackward0>)|
+|  1   |  10   | tensor(1.0421, grad_fn=<NllLossBackward0>)|
+|  2   |   0   | tensor(0.3912, grad_fn=<NllLossBackward0>)|
+|  2   |  10   | tensor(0.5993, grad_fn=<NllLossBackward0>)|
+|  3   |   0   | tensor(0.2603, grad_fn=<NllLossBackward0>)|
+|  3   |  10   | tensor(0.2848, grad_fn=<NllLossBackward0>)|
+|  4   |   0   | tensor(0.3090, grad_fn=<NllLossBackward0>)|
+|  4   |  10   | tensor(0.2859, grad_fn=<NllLossBackward0>)|
+|  5   |   0   | tensor(0.0199, grad_fn=<NllLossBackward0>)|
+|  5   |  10   | tensor(0.1719, grad_fn=<NllLossBackward0>)|
+|  6   |   0   | tensor(0.1313, grad_fn=<NllLossBackward0>)|
+|  6   |  10   | tensor(0.0658, grad_fn=<NllLossBackward0>)|
+|  7   |   0   | tensor(0.0306, grad_fn=<NllLossBackward0>)|
+|  7   |  10   | tensor(0.0385, grad_fn=<NllLossBackward0>)|
+|  8   |   0   | tensor(0.0441, grad_fn=<NllLossBackward0>)|
+|  8   |  10   | tensor(0.0138, grad_fn=<NllLossBackward0>)|
+|  9   |   0   | tensor(0.0702, grad_fn=<NllLossBackward0>)|
+|  9   |  10   | tensor(0.0079, grad_fn=<NllLossBackward0>)|
+| 10   |   0   | tensor(0.0040, grad_fn=<NllLossBackward0>)|
+| 10   |  10   | tensor(0.0175, grad_fn=<NllLossBackward0>)|
+| 11   |   0   | tensor(0.0284, grad_fn=<NllLossBackward0>)|
++----------------------------------------------------------+
+                      Training Status                       
++----------------------------------------------------------+
+|Epoch | Steps |                    Loss                   |
+|------+-------+-------------------------------------------|
+|  0   |   0   | tensor(8.4754, grad_fn=<NllLossBackward0>)|
+|  0   |  10   | tensor(1.7911, grad_fn=<NllLossBackward0>)|
+|  1   |   0   | tensor(1.6946, grad_fn=<NllLossBackward0>)|
+|  1   |  10   | tensor(1.0421, grad_fn=<NllLossBackward0>)|
+|  2   |   0   | tensor(0.3912, grad_fn=<NllLossBackward0>)|
+|  2   |  10   | tensor(0.5993, grad_fn=<NllLossBackward0>)|
+|  3   |   0   | tensor(0.2603, grad_fn=<NllLossBackward0>)|
+|  3   |  10   | tensor(0.2848, grad_fn=<NllLossBackward0>)|
+|  4   |   0   | tensor(0.3090, grad_fn=<NllLossBackward0>)|
+|  4   |  10   | tensor(0.2859, grad_fn=<NllLossBackward0>)|
+|  5   |   0   | tensor(0.0199, grad_fn=<NllLossBackward0>)|
+|  5   |  10   | tensor(0.1719, grad_fn=<NllLossBackward0>)|
+|  6   |   0   | tensor(0.1313, grad_fn=<NllLossBackward0>)|
+|  6   |  10   | tensor(0.0658, grad_fn=<NllLossBackward0>)|
+|  7   |   0   | tensor(0.0306, grad_fn=<NllLossBackward0>)|
+|  7   |  10   | tensor(0.0385, grad_fn=<NllLossBackward0>)|
+|  8   |   0   | tensor(0.0441, grad_fn=<NllLossBackward0>)|
+|  8   |  10   | tensor(0.0138, grad_fn=<NllLossBackward0>)|
+|  9   |   0   | tensor(0.0702, grad_fn=<NllLossBackward0>)|
+|  9   |  10   | tensor(0.0079, grad_fn=<NllLossBackward0>)|
+| 10   |   0   | tensor(0.0040, grad_fn=<NllLossBackward0>)|
+| 10   |  10   | tensor(0.0175, grad_fn=<NllLossBackward0>)|
+| 11   |   0   | tensor(0.0284, grad_fn=<NllLossBackward0>)|
+| 11   |  10   | tensor(0.0492, grad_fn=<NllLossBackward0>)|
++----------------------------------------------------------+
+                      Training Status                       
++----------------------------------------------------------+
+|Epoch | Steps |                    Loss                   |
+|------+-------+-------------------------------------------|
+|  0   |   0   | tensor(8.4754, grad_fn=<NllLossBackward0>)|
+|  0   |  10   | tensor(1.7911, grad_fn=<NllLossBackward0>)|
+|  1   |   0   | tensor(1.6946, grad_fn=<NllLossBackward0>)|
+|  1   |  10   | tensor(1.0421, grad_fn=<NllLossBackward0>)|
+|  2   |   0   | tensor(0.3912, grad_fn=<NllLossBackward0>)|
+|  2   |  10   | tensor(0.5993, grad_fn=<NllLossBackward0>)|
+|  3   |   0   | tensor(0.2603, grad_fn=<NllLossBackward0>)|
+|  3   |  10   | tensor(0.2848, grad_fn=<NllLossBackward0>)|
+|  4   |   0   | tensor(0.3090, grad_fn=<NllLossBackward0>)|
+|  4   |  10   | tensor(0.2859, grad_fn=<NllLossBackward0>)|
+|  5   |   0   | tensor(0.0199, grad_fn=<NllLossBackward0>)|
+|  5   |  10   | tensor(0.1719, grad_fn=<NllLossBackward0>)|
+|  6   |   0   | tensor(0.1313, grad_fn=<NllLossBackward0>)|
+|  6   |  10   | tensor(0.0658, grad_fn=<NllLossBackward0>)|
+|  7   |   0   | tensor(0.0306, grad_fn=<NllLossBackward0>)|
+|  7   |  10   | tensor(0.0385, grad_fn=<NllLossBackward0>)|
+|  8   |   0   | tensor(0.0441, grad_fn=<NllLossBackward0>)|
+|  8   |  10   | tensor(0.0138, grad_fn=<NllLossBackward0>)|
+|  9   |   0   | tensor(0.0702, grad_fn=<NllLossBackward0>)|
+|  9   |  10   | tensor(0.0079, grad_fn=<NllLossBackward0>)|
+| 10   |   0   | tensor(0.0040, grad_fn=<NllLossBackward0>)|
+| 10   |  10   | tensor(0.0175, grad_fn=<NllLossBackward0>)|
+| 11   |   0   | tensor(0.0284, grad_fn=<NllLossBackward0>)|
+| 11   |  10   | tensor(0.0492, grad_fn=<NllLossBackward0>)|
+| 12   |   0   | tensor(0.0107, grad_fn=<NllLossBackward0>)|
++----------------------------------------------------------+
+                      Training Status                       
++----------------------------------------------------------+
+|Epoch | Steps |                    Loss                   |
+|------+-------+-------------------------------------------|
+|  0   |   0   | tensor(8.4754, grad_fn=<NllLossBackward0>)|
+|  0   |  10   | tensor(1.7911, grad_fn=<NllLossBackward0>)|
+|  1   |   0   | tensor(1.6946, grad_fn=<NllLossBackward0>)|
+|  1   |  10   | tensor(1.0421, grad_fn=<NllLossBackward0>)|
+|  2   |   0   | tensor(0.3912, grad_fn=<NllLossBackward0>)|
+|  2   |  10   | tensor(0.5993, grad_fn=<NllLossBackward0>)|
+|  3   |   0   | tensor(0.2603, grad_fn=<NllLossBackward0>)|
+|  3   |  10   | tensor(0.2848, grad_fn=<NllLossBackward0>)|
+|  4   |   0   | tensor(0.3090, grad_fn=<NllLossBackward0>)|
+|  4   |  10   | tensor(0.2859, grad_fn=<NllLossBackward0>)|
+|  5   |   0   | tensor(0.0199, grad_fn=<NllLossBackward0>)|
+|  5   |  10   | tensor(0.1719, grad_fn=<NllLossBackward0>)|
+|  6   |   0   | tensor(0.1313, grad_fn=<NllLossBackward0>)|
+|  6   |  10   | tensor(0.0658, grad_fn=<NllLossBackward0>)|
+|  7   |   0   | tensor(0.0306, grad_fn=<NllLossBackward0>)|
+|  7   |  10   | tensor(0.0385, grad_fn=<NllLossBackward0>)|
+|  8   |   0   | tensor(0.0441, grad_fn=<NllLossBackward0>)|
+|  8   |  10   | tensor(0.0138, grad_fn=<NllLossBackward0>)|
+|  9   |   0   | tensor(0.0702, grad_fn=<NllLossBackward0>)|
+|  9   |  10   | tensor(0.0079, grad_fn=<NllLossBackward0>)|
+| 10   |   0   | tensor(0.0040, grad_fn=<NllLossBackward0>)|
+| 10   |  10   | tensor(0.0175, grad_fn=<NllLossBackward0>)|
+| 11   |   0   | tensor(0.0284, grad_fn=<NllLossBackward0>)|
+| 11   |  10   | tensor(0.0492, grad_fn=<NllLossBackward0>)|
+| 12   |   0   | tensor(0.0107, grad_fn=<NllLossBackward0>)|
+| 12   |  10   | tensor(0.0206, grad_fn=<NllLossBackward0>)|
++----------------------------------------------------------+
+                      Training Status                       
++----------------------------------------------------------+
+|Epoch | Steps |                    Loss                   |
+|------+-------+-------------------------------------------|
+|  0   |   0   | tensor(8.4754, grad_fn=<NllLossBackward0>)|
+|  0   |  10   | tensor(1.7911, grad_fn=<NllLossBackward0>)|
+|  1   |   0   | tensor(1.6946, grad_fn=<NllLossBackward0>)|
+|  1   |  10   | tensor(1.0421, grad_fn=<NllLossBackward0>)|
+|  2   |   0   | tensor(0.3912, grad_fn=<NllLossBackward0>)|
+|  2   |  10   | tensor(0.5993, grad_fn=<NllLossBackward0>)|
+|  3   |   0   | tensor(0.2603, grad_fn=<NllLossBackward0>)|
+|  3   |  10   | tensor(0.2848, grad_fn=<NllLossBackward0>)|
+|  4   |   0   | tensor(0.3090, grad_fn=<NllLossBackward0>)|
+|  4   |  10   | tensor(0.2859, grad_fn=<NllLossBackward0>)|
+|  5   |   0   | tensor(0.0199, grad_fn=<NllLossBackward0>)|
+|  5   |  10   | tensor(0.1719, grad_fn=<NllLossBackward0>)|
+|  6   |   0   | tensor(0.1313, grad_fn=<NllLossBackward0>)|
+|  6   |  10   | tensor(0.0658, grad_fn=<NllLossBackward0>)|
+|  7   |   0   | tensor(0.0306, grad_fn=<NllLossBackward0>)|
+|  7   |  10   | tensor(0.0385, grad_fn=<NllLossBackward0>)|
+|  8   |   0   | tensor(0.0441, grad_fn=<NllLossBackward0>)|
+|  8   |  10   | tensor(0.0138, grad_fn=<NllLossBackward0>)|
+|  9   |   0   | tensor(0.0702, grad_fn=<NllLossBackward0>)|
+|  9   |  10   | tensor(0.0079, grad_fn=<NllLossBackward0>)|
+| 10   |   0   | tensor(0.0040, grad_fn=<NllLossBackward0>)|
+| 10   |  10   | tensor(0.0175, grad_fn=<NllLossBackward0>)|
+| 11   |   0   | tensor(0.0284, grad_fn=<NllLossBackward0>)|
+| 11   |  10   | tensor(0.0492, grad_fn=<NllLossBackward0>)|
+| 12   |   0   | tensor(0.0107, grad_fn=<NllLossBackward0>)|
+| 12   |  10   | tensor(0.0206, grad_fn=<NllLossBackward0>)|
+| 13   |   0   | tensor(0.0338, grad_fn=<NllLossBackward0>)|
++----------------------------------------------------------+
+                      Training Status                       
++----------------------------------------------------------+
+|Epoch | Steps |                    Loss                   |
+|------+-------+-------------------------------------------|
+|  0   |   0   | tensor(8.4754, grad_fn=<NllLossBackward0>)|
+|  0   |  10   | tensor(1.7911, grad_fn=<NllLossBackward0>)|
+|  1   |   0   | tensor(1.6946, grad_fn=<NllLossBackward0>)|
+|  1   |  10   | tensor(1.0421, grad_fn=<NllLossBackward0>)|
+|  2   |   0   | tensor(0.3912, grad_fn=<NllLossBackward0>)|
+|  2   |  10   | tensor(0.5993, grad_fn=<NllLossBackward0>)|
+|  3   |   0   | tensor(0.2603, grad_fn=<NllLossBackward0>)|
+|  3   |  10   | tensor(0.2848, grad_fn=<NllLossBackward0>)|
+|  4   |   0   | tensor(0.3090, grad_fn=<NllLossBackward0>)|
+|  4   |  10   | tensor(0.2859, grad_fn=<NllLossBackward0>)|
+|  5   |   0   | tensor(0.0199, grad_fn=<NllLossBackward0>)|
+|  5   |  10   | tensor(0.1719, grad_fn=<NllLossBackward0>)|
+|  6   |   0   | tensor(0.1313, grad_fn=<NllLossBackward0>)|
+|  6   |  10   | tensor(0.0658, grad_fn=<NllLossBackward0>)|
+|  7   |   0   | tensor(0.0306, grad_fn=<NllLossBackward0>)|
+|  7   |  10   | tensor(0.0385, grad_fn=<NllLossBackward0>)|
+|  8   |   0   | tensor(0.0441, grad_fn=<NllLossBackward0>)|
+|  8   |  10   | tensor(0.0138, grad_fn=<NllLossBackward0>)|
+|  9   |   0   | tensor(0.0702, grad_fn=<NllLossBackward0>)|
+|  9   |  10   | tensor(0.0079, grad_fn=<NllLossBackward0>)|
+| 10   |   0   | tensor(0.0040, grad_fn=<NllLossBackward0>)|
+| 10   |  10   | tensor(0.0175, grad_fn=<NllLossBackward0>)|
+| 11   |   0   | tensor(0.0284, grad_fn=<NllLossBackward0>)|
+| 11   |  10   | tensor(0.0492, grad_fn=<NllLossBackward0>)|
+| 12   |   0   | tensor(0.0107, grad_fn=<NllLossBackward0>)|
+| 12   |  10   | tensor(0.0206, grad_fn=<NllLossBackward0>)|
+| 13   |   0   | tensor(0.0338, grad_fn=<NllLossBackward0>)|
+| 13   |  10   | tensor(0.0116, grad_fn=<NllLossBackward0>)|
++----------------------------------------------------------+
+                      Training Status                       
++----------------------------------------------------------+
+|Epoch | Steps |                    Loss                   |
+|------+-------+-------------------------------------------|
+|  0   |   0   | tensor(8.4754, grad_fn=<NllLossBackward0>)|
+|  0   |  10   | tensor(1.7911, grad_fn=<NllLossBackward0>)|
+|  1   |   0   | tensor(1.6946, grad_fn=<NllLossBackward0>)|
+|  1   |  10   | tensor(1.0421, grad_fn=<NllLossBackward0>)|
+|  2   |   0   | tensor(0.3912, grad_fn=<NllLossBackward0>)|
+|  2   |  10   | tensor(0.5993, grad_fn=<NllLossBackward0>)|
+|  3   |   0   | tensor(0.2603, grad_fn=<NllLossBackward0>)|
+|  3   |  10   | tensor(0.2848, grad_fn=<NllLossBackward0>)|
+|  4   |   0   | tensor(0.3090, grad_fn=<NllLossBackward0>)|
+|  4   |  10   | tensor(0.2859, grad_fn=<NllLossBackward0>)|
+|  5   |   0   | tensor(0.0199, grad_fn=<NllLossBackward0>)|
+|  5   |  10   | tensor(0.1719, grad_fn=<NllLossBackward0>)|
+|  6   |   0   | tensor(0.1313, grad_fn=<NllLossBackward0>)|
+|  6   |  10   | tensor(0.0658, grad_fn=<NllLossBackward0>)|
+|  7   |   0   | tensor(0.0306, grad_fn=<NllLossBackward0>)|
+|  7   |  10   | tensor(0.0385, grad_fn=<NllLossBackward0>)|
+|  8   |   0   | tensor(0.0441, grad_fn=<NllLossBackward0>)|
+|  8   |  10   | tensor(0.0138, grad_fn=<NllLossBackward0>)|
+|  9   |   0   | tensor(0.0702, grad_fn=<NllLossBackward0>)|
+|  9   |  10   | tensor(0.0079, grad_fn=<NllLossBackward0>)|
+| 10   |   0   | tensor(0.0040, grad_fn=<NllLossBackward0>)|
+| 10   |  10   | tensor(0.0175, grad_fn=<NllLossBackward0>)|
+| 11   |   0   | tensor(0.0284, grad_fn=<NllLossBackward0>)|
+| 11   |  10   | tensor(0.0492, grad_fn=<NllLossBackward0>)|
+| 12   |   0   | tensor(0.0107, grad_fn=<NllLossBackward0>)|
+| 12   |  10   | tensor(0.0206, grad_fn=<NllLossBackward0>)|
+| 13   |   0   | tensor(0.0338, grad_fn=<NllLossBackward0>)|
+| 13   |  10   | tensor(0.0116, grad_fn=<NllLossBackward0>)|
+| 14   |   0   | tensor(0.0640, grad_fn=<NllLossBackward0>)|
++----------------------------------------------------------+
+                      Training Status                       
++----------------------------------------------------------+
+|Epoch | Steps |                    Loss                   |
+|------+-------+-------------------------------------------|
+|  0   |   0   | tensor(8.4754, grad_fn=<NllLossBackward0>)|
+|  0   |  10   | tensor(1.7911, grad_fn=<NllLossBackward0>)|
+|  1   |   0   | tensor(1.6946, grad_fn=<NllLossBackward0>)|
+|  1   |  10   | tensor(1.0421, grad_fn=<NllLossBackward0>)|
+|  2   |   0   | tensor(0.3912, grad_fn=<NllLossBackward0>)|
+|  2   |  10   | tensor(0.5993, grad_fn=<NllLossBackward0>)|
+|  3   |   0   | tensor(0.2603, grad_fn=<NllLossBackward0>)|
+|  3   |  10   | tensor(0.2848, grad_fn=<NllLossBackward0>)|
+|  4   |   0   | tensor(0.3090, grad_fn=<NllLossBackward0>)|
+|  4   |  10   | tensor(0.2859, grad_fn=<NllLossBackward0>)|
+|  5   |   0   | tensor(0.0199, grad_fn=<NllLossBackward0>)|
+|  5   |  10   | tensor(0.1719, grad_fn=<NllLossBackward0>)|
+|  6   |   0   | tensor(0.1313, grad_fn=<NllLossBackward0>)|
+|  6   |  10   | tensor(0.0658, grad_fn=<NllLossBackward0>)|
+|  7   |   0   | tensor(0.0306, grad_fn=<NllLossBackward0>)|
+|  7   |  10   | tensor(0.0385, grad_fn=<NllLossBackward0>)|
+|  8   |   0   | tensor(0.0441, grad_fn=<NllLossBackward0>)|
+|  8   |  10   | tensor(0.0138, grad_fn=<NllLossBackward0>)|
+|  9   |   0   | tensor(0.0702, grad_fn=<NllLossBackward0>)|
+|  9   |  10   | tensor(0.0079, grad_fn=<NllLossBackward0>)|
+| 10   |   0   | tensor(0.0040, grad_fn=<NllLossBackward0>)|
+| 10   |  10   | tensor(0.0175, grad_fn=<NllLossBackward0>)|
+| 11   |   0   | tensor(0.0284, grad_fn=<NllLossBackward0>)|
+| 11   |  10   | tensor(0.0492, grad_fn=<NllLossBackward0>)|
+| 12   |   0   | tensor(0.0107, grad_fn=<NllLossBackward0>)|
+| 12   |  10   | tensor(0.0206, grad_fn=<NllLossBackward0>)|
+| 13   |   0   | tensor(0.0338, grad_fn=<NllLossBackward0>)|
+| 13   |  10   | tensor(0.0116, grad_fn=<NllLossBackward0>)|
+| 14   |   0   | tensor(0.0640, grad_fn=<NllLossBackward0>)|
+| 14   |  10   | tensor(0.0077, grad_fn=<NllLossBackward0>)|
++----------------------------------------------------------+
+                      Training Status                       
++----------------------------------------------------------+
+|Epoch | Steps |                    Loss                   |
+|------+-------+-------------------------------------------|
+|  0   |   0   | tensor(8.4754, grad_fn=<NllLossBackward0>)|
+|  0   |  10   | tensor(1.7911, grad_fn=<NllLossBackward0>)|
+|  1   |   0   | tensor(1.6946, grad_fn=<NllLossBackward0>)|
+|  1   |  10   | tensor(1.0421, grad_fn=<NllLossBackward0>)|
+|  2   |   0   | tensor(0.3912, grad_fn=<NllLossBackward0>)|
+|  2   |  10   | tensor(0.5993, grad_fn=<NllLossBackward0>)|
+|  3   |   0   | tensor(0.2603, grad_fn=<NllLossBackward0>)|
+|  3   |  10   | tensor(0.2848, grad_fn=<NllLossBackward0>)|
+|  4   |   0   | tensor(0.3090, grad_fn=<NllLossBackward0>)|
+|  4   |  10   | tensor(0.2859, grad_fn=<NllLossBackward0>)|
+|  5   |   0   | tensor(0.0199, grad_fn=<NllLossBackward0>)|
+|  5   |  10   | tensor(0.1719, grad_fn=<NllLossBackward0>)|
+|  6   |   0   | tensor(0.1313, grad_fn=<NllLossBackward0>)|
+|  6   |  10   | tensor(0.0658, grad_fn=<NllLossBackward0>)|
+|  7   |   0   | tensor(0.0306, grad_fn=<NllLossBackward0>)|
+|  7   |  10   | tensor(0.0385, grad_fn=<NllLossBackward0>)|
+|  8   |   0   | tensor(0.0441, grad_fn=<NllLossBackward0>)|
+|  8   |  10   | tensor(0.0138, grad_fn=<NllLossBackward0>)|
+|  9   |   0   | tensor(0.0702, grad_fn=<NllLossBackward0>)|
+|  9   |  10   | tensor(0.0079, grad_fn=<NllLossBackward0>)|
+| 10   |   0   | tensor(0.0040, grad_fn=<NllLossBackward0>)|
+| 10   |  10   | tensor(0.0175, grad_fn=<NllLossBackward0>)|
+| 11   |   0   | tensor(0.0284, grad_fn=<NllLossBackward0>)|
+| 11   |  10   | tensor(0.0492, grad_fn=<NllLossBackward0>)|
+| 12   |   0   | tensor(0.0107, grad_fn=<NllLossBackward0>)|
+| 12   |  10   | tensor(0.0206, grad_fn=<NllLossBackward0>)|
+| 13   |   0   | tensor(0.0338, grad_fn=<NllLossBackward0>)|
+| 13   |  10   | tensor(0.0116, grad_fn=<NllLossBackward0>)|
+| 14   |   0   | tensor(0.0640, grad_fn=<NllLossBackward0>)|
+| 14   |  10   | tensor(0.0077, grad_fn=<NllLossBackward0>)|
+| 15   |   0   | tensor(0.0190, grad_fn=<NllLossBackward0>)|
++----------------------------------------------------------+
+                      Training Status                       
++----------------------------------------------------------+
+|Epoch | Steps |                    Loss                   |
+|------+-------+-------------------------------------------|
+|  0   |   0   | tensor(8.4754, grad_fn=<NllLossBackward0>)|
+|  0   |  10   | tensor(1.7911, grad_fn=<NllLossBackward0>)|
+|  1   |   0   | tensor(1.6946, grad_fn=<NllLossBackward0>)|
+|  1   |  10   | tensor(1.0421, grad_fn=<NllLossBackward0>)|
+|  2   |   0   | tensor(0.3912, grad_fn=<NllLossBackward0>)|
+|  2   |  10   | tensor(0.5993, grad_fn=<NllLossBackward0>)|
+|  3   |   0   | tensor(0.2603, grad_fn=<NllLossBackward0>)|
+|  3   |  10   | tensor(0.2848, grad_fn=<NllLossBackward0>)|
+|  4   |   0   | tensor(0.3090, grad_fn=<NllLossBackward0>)|
+|  4   |  10   | tensor(0.2859, grad_fn=<NllLossBackward0>)|
+|  5   |   0   | tensor(0.0199, grad_fn=<NllLossBackward0>)|
+|  5   |  10   | tensor(0.1719, grad_fn=<NllLossBackward0>)|
+|  6   |   0   | tensor(0.1313, grad_fn=<NllLossBackward0>)|
+|  6   |  10   | tensor(0.0658, grad_fn=<NllLossBackward0>)|
+|  7   |   0   | tensor(0.0306, grad_fn=<NllLossBackward0>)|
+|  7   |  10   | tensor(0.0385, grad_fn=<NllLossBackward0>)|
+|  8   |   0   | tensor(0.0441, grad_fn=<NllLossBackward0>)|
+|  8   |  10   | tensor(0.0138, grad_fn=<NllLossBackward0>)|
+|  9   |   0   | tensor(0.0702, grad_fn=<NllLossBackward0>)|
+|  9   |  10   | tensor(0.0079, grad_fn=<NllLossBackward0>)|
+| 10   |   0   | tensor(0.0040, grad_fn=<NllLossBackward0>)|
+| 10   |  10   | tensor(0.0175, grad_fn=<NllLossBackward0>)|
+| 11   |   0   | tensor(0.0284, grad_fn=<NllLossBackward0>)|
+| 11   |  10   | tensor(0.0492, grad_fn=<NllLossBackward0>)|
+| 12   |   0   | tensor(0.0107, grad_fn=<NllLossBackward0>)|
+| 12   |  10   | tensor(0.0206, grad_fn=<NllLossBackward0>)|
+| 13   |   0   | tensor(0.0338, grad_fn=<NllLossBackward0>)|
+| 13   |  10   | tensor(0.0116, grad_fn=<NllLossBackward0>)|
+| 14   |   0   | tensor(0.0640, grad_fn=<NllLossBackward0>)|
+| 14   |  10   | tensor(0.0077, grad_fn=<NllLossBackward0>)|
+| 15   |   0   | tensor(0.0190, grad_fn=<NllLossBackward0>)|
+| 15   |  10   | tensor(0.0034, grad_fn=<NllLossBackward0>)|
++----------------------------------------------------------+
+                      Training Status                       
++----------------------------------------------------------+
+|Epoch | Steps |                    Loss                   |
+|------+-------+-------------------------------------------|
+|  0   |   0   | tensor(8.4754, grad_fn=<NllLossBackward0>)|
+|  0   |  10   | tensor(1.7911, grad_fn=<NllLossBackward0>)|
+|  1   |   0   | tensor(1.6946, grad_fn=<NllLossBackward0>)|
+|  1   |  10   | tensor(1.0421, grad_fn=<NllLossBackward0>)|
+|  2   |   0   | tensor(0.3912, grad_fn=<NllLossBackward0>)|
+|  2   |  10   | tensor(0.5993, grad_fn=<NllLossBackward0>)|
+|  3   |   0   | tensor(0.2603, grad_fn=<NllLossBackward0>)|
+|  3   |  10   | tensor(0.2848, grad_fn=<NllLossBackward0>)|
+|  4   |   0   | tensor(0.3090, grad_fn=<NllLossBackward0>)|
+|  4   |  10   | tensor(0.2859, grad_fn=<NllLossBackward0>)|
+|  5   |   0   | tensor(0.0199, grad_fn=<NllLossBackward0>)|
+|  5   |  10   | tensor(0.1719, grad_fn=<NllLossBackward0>)|
+|  6   |   0   | tensor(0.1313, grad_fn=<NllLossBackward0>)|
+|  6   |  10   | tensor(0.0658, grad_fn=<NllLossBackward0>)|
+|  7   |   0   | tensor(0.0306, grad_fn=<NllLossBackward0>)|
+|  7   |  10   | tensor(0.0385, grad_fn=<NllLossBackward0>)|
+|  8   |   0   | tensor(0.0441, grad_fn=<NllLossBackward0>)|
+|  8   |  10   | tensor(0.0138, grad_fn=<NllLossBackward0>)|
+|  9   |   0   | tensor(0.0702, grad_fn=<NllLossBackward0>)|
+|  9   |  10   | tensor(0.0079, grad_fn=<NllLossBackward0>)|
+| 10   |   0   | tensor(0.0040, grad_fn=<NllLossBackward0>)|
+| 10   |  10   | tensor(0.0175, grad_fn=<NllLossBackward0>)|
+| 11   |   0   | tensor(0.0284, grad_fn=<NllLossBackward0>)|
+| 11   |  10   | tensor(0.0492, grad_fn=<NllLossBackward0>)|
+| 12   |   0   | tensor(0.0107, grad_fn=<NllLossBackward0>)|
+| 12   |  10   | tensor(0.0206, grad_fn=<NllLossBackward0>)|
+| 13   |   0   | tensor(0.0338, grad_fn=<NllLossBackward0>)|
+| 13   |  10   | tensor(0.0116, grad_fn=<NllLossBackward0>)|
+| 14   |   0   | tensor(0.0640, grad_fn=<NllLossBackward0>)|
+| 14   |  10   | tensor(0.0077, grad_fn=<NllLossBackward0>)|
+| 15   |   0   | tensor(0.0190, grad_fn=<NllLossBackward0>)|
+| 15   |  10   | tensor(0.0034, grad_fn=<NllLossBackward0>)|
+| 16   |   0   | tensor(0.0065, grad_fn=<NllLossBackward0>)|
++----------------------------------------------------------+
+                      Training Status                       
++----------------------------------------------------------+
+|Epoch | Steps |                    Loss                   |
+|------+-------+-------------------------------------------|
+|  0   |   0   | tensor(8.4754, grad_fn=<NllLossBackward0>)|
+|  0   |  10   | tensor(1.7911, grad_fn=<NllLossBackward0>)|
+|  1   |   0   | tensor(1.6946, grad_fn=<NllLossBackward0>)|
+|  1   |  10   | tensor(1.0421, grad_fn=<NllLossBackward0>)|
+|  2   |   0   | tensor(0.3912, grad_fn=<NllLossBackward0>)|
+|  2   |  10   | tensor(0.5993, grad_fn=<NllLossBackward0>)|
+|  3   |   0   | tensor(0.2603, grad_fn=<NllLossBackward0>)|
+|  3   |  10   | tensor(0.2848, grad_fn=<NllLossBackward0>)|
+|  4   |   0   | tensor(0.3090, grad_fn=<NllLossBackward0>)|
+|  4   |  10   | tensor(0.2859, grad_fn=<NllLossBackward0>)|
+|  5   |   0   | tensor(0.0199, grad_fn=<NllLossBackward0>)|
+|  5   |  10   | tensor(0.1719, grad_fn=<NllLossBackward0>)|
+|  6   |   0   | tensor(0.1313, grad_fn=<NllLossBackward0>)|
+|  6   |  10   | tensor(0.0658, grad_fn=<NllLossBackward0>)|
+|  7   |   0   | tensor(0.0306, grad_fn=<NllLossBackward0>)|
+|  7   |  10   | tensor(0.0385, grad_fn=<NllLossBackward0>)|
+|  8   |   0   | tensor(0.0441, grad_fn=<NllLossBackward0>)|
+|  8   |  10   | tensor(0.0138, grad_fn=<NllLossBackward0>)|
+|  9   |   0   | tensor(0.0702, grad_fn=<NllLossBackward0>)|
+|  9   |  10   | tensor(0.0079, grad_fn=<NllLossBackward0>)|
+| 10   |   0   | tensor(0.0040, grad_fn=<NllLossBackward0>)|
+| 10   |  10   | tensor(0.0175, grad_fn=<NllLossBackward0>)|
+| 11   |   0   | tensor(0.0284, grad_fn=<NllLossBackward0>)|
+| 11   |  10   | tensor(0.0492, grad_fn=<NllLossBackward0>)|
+| 12   |   0   | tensor(0.0107, grad_fn=<NllLossBackward0>)|
+| 12   |  10   | tensor(0.0206, grad_fn=<NllLossBackward0>)|
+| 13   |   0   | tensor(0.0338, grad_fn=<NllLossBackward0>)|
+| 13   |  10   | tensor(0.0116, grad_fn=<NllLossBackward0>)|
+| 14   |   0   | tensor(0.0640, grad_fn=<NllLossBackward0>)|
+| 14   |  10   | tensor(0.0077, grad_fn=<NllLossBackward0>)|
+| 15   |   0   | tensor(0.0190, grad_fn=<NllLossBackward0>)|
+| 15   |  10   | tensor(0.0034, grad_fn=<NllLossBackward0>)|
+| 16   |   0   | tensor(0.0065, grad_fn=<NllLossBackward0>)|
+| 16   |  10   | tensor(0.0136, grad_fn=<NllLossBackward0>)|
++----------------------------------------------------------+
+                      Training Status                       
++----------------------------------------------------------+
+|Epoch | Steps |                    Loss                   |
+|------+-------+-------------------------------------------|
+|  0   |   0   | tensor(8.4754, grad_fn=<NllLossBackward0>)|
+|  0   |  10   | tensor(1.7911, grad_fn=<NllLossBackward0>)|
+|  1   |   0   | tensor(1.6946, grad_fn=<NllLossBackward0>)|
+|  1   |  10   | tensor(1.0421, grad_fn=<NllLossBackward0>)|
+|  2   |   0   | tensor(0.3912, grad_fn=<NllLossBackward0>)|
+|  2   |  10   | tensor(0.5993, grad_fn=<NllLossBackward0>)|
+|  3   |   0   | tensor(0.2603, grad_fn=<NllLossBackward0>)|
+|  3   |  10   | tensor(0.2848, grad_fn=<NllLossBackward0>)|
+|  4   |   0   | tensor(0.3090, grad_fn=<NllLossBackward0>)|
+|  4   |  10   | tensor(0.2859, grad_fn=<NllLossBackward0>)|
+|  5   |   0   | tensor(0.0199, grad_fn=<NllLossBackward0>)|
+|  5   |  10   | tensor(0.1719, grad_fn=<NllLossBackward0>)|
+|  6   |   0   | tensor(0.1313, grad_fn=<NllLossBackward0>)|
+|  6   |  10   | tensor(0.0658, grad_fn=<NllLossBackward0>)|
+|  7   |   0   | tensor(0.0306, grad_fn=<NllLossBackward0>)|
+|  7   |  10   | tensor(0.0385, grad_fn=<NllLossBackward0>)|
+|  8   |   0   | tensor(0.0441, grad_fn=<NllLossBackward0>)|
+|  8   |  10   | tensor(0.0138, grad_fn=<NllLossBackward0>)|
+|  9   |   0   | tensor(0.0702, grad_fn=<NllLossBackward0>)|
+|  9   |  10   | tensor(0.0079, grad_fn=<NllLossBackward0>)|
+| 10   |   0   | tensor(0.0040, grad_fn=<NllLossBackward0>)|
+| 10   |  10   | tensor(0.0175, grad_fn=<NllLossBackward0>)|
+| 11   |   0   | tensor(0.0284, grad_fn=<NllLossBackward0>)|
+| 11   |  10   | tensor(0.0492, grad_fn=<NllLossBackward0>)|
+| 12   |   0   | tensor(0.0107, grad_fn=<NllLossBackward0>)|
+| 12   |  10   | tensor(0.0206, grad_fn=<NllLossBackward0>)|
+| 13   |   0   | tensor(0.0338, grad_fn=<NllLossBackward0>)|
+| 13   |  10   | tensor(0.0116, grad_fn=<NllLossBackward0>)|
+| 14   |   0   | tensor(0.0640, grad_fn=<NllLossBackward0>)|
+| 14   |  10   | tensor(0.0077, grad_fn=<NllLossBackward0>)|
+| 15   |   0   | tensor(0.0190, grad_fn=<NllLossBackward0>)|
+| 15   |  10   | tensor(0.0034, grad_fn=<NllLossBackward0>)|
+| 16   |   0   | tensor(0.0065, grad_fn=<NllLossBackward0>)|
+| 16   |  10   | tensor(0.0136, grad_fn=<NllLossBackward0>)|
+| 17   |   0   | tensor(0.0103, grad_fn=<NllLossBackward0>)|
++----------------------------------------------------------+
+                      Training Status                       
++----------------------------------------------------------+
+|Epoch | Steps |                    Loss                   |
+|------+-------+-------------------------------------------|
+|  0   |   0   | tensor(8.4754, grad_fn=<NllLossBackward0>)|
+|  0   |  10   | tensor(1.7911, grad_fn=<NllLossBackward0>)|
+|  1   |   0   | tensor(1.6946, grad_fn=<NllLossBackward0>)|
+|  1   |  10   | tensor(1.0421, grad_fn=<NllLossBackward0>)|
+|  2   |   0   | tensor(0.3912, grad_fn=<NllLossBackward0>)|
+|  2   |  10   | tensor(0.5993, grad_fn=<NllLossBackward0>)|
+|  3   |   0   | tensor(0.2603, grad_fn=<NllLossBackward0>)|
+|  3   |  10   | tensor(0.2848, grad_fn=<NllLossBackward0>)|
+|  4   |   0   | tensor(0.3090, grad_fn=<NllLossBackward0>)|
+|  4   |  10   | tensor(0.2859, grad_fn=<NllLossBackward0>)|
+|  5   |   0   | tensor(0.0199, grad_fn=<NllLossBackward0>)|
+|  5   |  10   | tensor(0.1719, grad_fn=<NllLossBackward0>)|
+|  6   |   0   | tensor(0.1313, grad_fn=<NllLossBackward0>)|
+|  6   |  10   | tensor(0.0658, grad_fn=<NllLossBackward0>)|
+|  7   |   0   | tensor(0.0306, grad_fn=<NllLossBackward0>)|
+|  7   |  10   | tensor(0.0385, grad_fn=<NllLossBackward0>)|
+|  8   |   0   | tensor(0.0441, grad_fn=<NllLossBackward0>)|
+|  8   |  10   | tensor(0.0138, grad_fn=<NllLossBackward0>)|
+|  9   |   0   | tensor(0.0702, grad_fn=<NllLossBackward0>)|
+|  9   |  10   | tensor(0.0079, grad_fn=<NllLossBackward0>)|
+| 10   |   0   | tensor(0.0040, grad_fn=<NllLossBackward0>)|
+| 10   |  10   | tensor(0.0175, grad_fn=<NllLossBackward0>)|
+| 11   |   0   | tensor(0.0284, grad_fn=<NllLossBackward0>)|
+| 11   |  10   | tensor(0.0492, grad_fn=<NllLossBackward0>)|
+| 12   |   0   | tensor(0.0107, grad_fn=<NllLossBackward0>)|
+| 12   |  10   | tensor(0.0206, grad_fn=<NllLossBackward0>)|
+| 13   |   0   | tensor(0.0338, grad_fn=<NllLossBackward0>)|
+| 13   |  10   | tensor(0.0116, grad_fn=<NllLossBackward0>)|
+| 14   |   0   | tensor(0.0640, grad_fn=<NllLossBackward0>)|
+| 14   |  10   | tensor(0.0077, grad_fn=<NllLossBackward0>)|
+| 15   |   0   | tensor(0.0190, grad_fn=<NllLossBackward0>)|
+| 15   |  10   | tensor(0.0034, grad_fn=<NllLossBackward0>)|
+| 16   |   0   | tensor(0.0065, grad_fn=<NllLossBackward0>)|
+| 16   |  10   | tensor(0.0136, grad_fn=<NllLossBackward0>)|
+| 17   |   0   | tensor(0.0103, grad_fn=<NllLossBackward0>)|
+| 17   |  10   | tensor(0.0074, grad_fn=<NllLossBackward0>)|
++----------------------------------------------------------+
+                      Training Status                       
++----------------------------------------------------------+
+|Epoch | Steps |                    Loss                   |
+|------+-------+-------------------------------------------|
+|  0   |   0   | tensor(8.4754, grad_fn=<NllLossBackward0>)|
+|  0   |  10   | tensor(1.7911, grad_fn=<NllLossBackward0>)|
+|  1   |   0   | tensor(1.6946, grad_fn=<NllLossBackward0>)|
+|  1   |  10   | tensor(1.0421, grad_fn=<NllLossBackward0>)|
+|  2   |   0   | tensor(0.3912, grad_fn=<NllLossBackward0>)|
+|  2   |  10   | tensor(0.5993, grad_fn=<NllLossBackward0>)|
+|  3   |   0   | tensor(0.2603, grad_fn=<NllLossBackward0>)|
+|  3   |  10   | tensor(0.2848, grad_fn=<NllLossBackward0>)|
+|  4   |   0   | tensor(0.3090, grad_fn=<NllLossBackward0>)|
+|  4   |  10   | tensor(0.2859, grad_fn=<NllLossBackward0>)|
+|  5   |   0   | tensor(0.0199, grad_fn=<NllLossBackward0>)|
+|  5   |  10   | tensor(0.1719, grad_fn=<NllLossBackward0>)|
+|  6   |   0   | tensor(0.1313, grad_fn=<NllLossBackward0>)|
+|  6   |  10   | tensor(0.0658, grad_fn=<NllLossBackward0>)|
+|  7   |   0   | tensor(0.0306, grad_fn=<NllLossBackward0>)|
+|  7   |  10   | tensor(0.0385, grad_fn=<NllLossBackward0>)|
+|  8   |   0   | tensor(0.0441, grad_fn=<NllLossBackward0>)|
+|  8   |  10   | tensor(0.0138, grad_fn=<NllLossBackward0>)|
+|  9   |   0   | tensor(0.0702, grad_fn=<NllLossBackward0>)|
+|  9   |  10   | tensor(0.0079, grad_fn=<NllLossBackward0>)|
+| 10   |   0   | tensor(0.0040, grad_fn=<NllLossBackward0>)|
+| 10   |  10   | tensor(0.0175, grad_fn=<NllLossBackward0>)|
+| 11   |   0   | tensor(0.0284, grad_fn=<NllLossBackward0>)|
+| 11   |  10   | tensor(0.0492, grad_fn=<NllLossBackward0>)|
+| 12   |   0   | tensor(0.0107, grad_fn=<NllLossBackward0>)|
+| 12   |  10   | tensor(0.0206, grad_fn=<NllLossBackward0>)|
+| 13   |   0   | tensor(0.0338, grad_fn=<NllLossBackward0>)|
+| 13   |  10   | tensor(0.0116, grad_fn=<NllLossBackward0>)|
+| 14   |   0   | tensor(0.0640, grad_fn=<NllLossBackward0>)|
+| 14   |  10   | tensor(0.0077, grad_fn=<NllLossBackward0>)|
+| 15   |   0   | tensor(0.0190, grad_fn=<NllLossBackward0>)|
+| 15   |  10   | tensor(0.0034, grad_fn=<NllLossBackward0>)|
+| 16   |   0   | tensor(0.0065, grad_fn=<NllLossBackward0>)|
+| 16   |  10   | tensor(0.0136, grad_fn=<NllLossBackward0>)|
+| 17   |   0   | tensor(0.0103, grad_fn=<NllLossBackward0>)|
+| 17   |  10   | tensor(0.0074, grad_fn=<NllLossBackward0>)|
+| 18   |   0   | tensor(0.0025, grad_fn=<NllLossBackward0>)|
++----------------------------------------------------------+
+                      Training Status                       
++----------------------------------------------------------+
+|Epoch | Steps |                    Loss                   |
+|------+-------+-------------------------------------------|
+|  0   |   0   | tensor(8.4754, grad_fn=<NllLossBackward0>)|
+|  0   |  10   | tensor(1.7911, grad_fn=<NllLossBackward0>)|
+|  1   |   0   | tensor(1.6946, grad_fn=<NllLossBackward0>)|
+|  1   |  10   | tensor(1.0421, grad_fn=<NllLossBackward0>)|
+|  2   |   0   | tensor(0.3912, grad_fn=<NllLossBackward0>)|
+|  2   |  10   | tensor(0.5993, grad_fn=<NllLossBackward0>)|
+|  3   |   0   | tensor(0.2603, grad_fn=<NllLossBackward0>)|
+|  3   |  10   | tensor(0.2848, grad_fn=<NllLossBackward0>)|
+|  4   |   0   | tensor(0.3090, grad_fn=<NllLossBackward0>)|
+|  4   |  10   | tensor(0.2859, grad_fn=<NllLossBackward0>)|
+|  5   |   0   | tensor(0.0199, grad_fn=<NllLossBackward0>)|
+|  5   |  10   | tensor(0.1719, grad_fn=<NllLossBackward0>)|
+|  6   |   0   | tensor(0.1313, grad_fn=<NllLossBackward0>)|
+|  6   |  10   | tensor(0.0658, grad_fn=<NllLossBackward0>)|
+|  7   |   0   | tensor(0.0306, grad_fn=<NllLossBackward0>)|
+|  7   |  10   | tensor(0.0385, grad_fn=<NllLossBackward0>)|
+|  8   |   0   | tensor(0.0441, grad_fn=<NllLossBackward0>)|
+|  8   |  10   | tensor(0.0138, grad_fn=<NllLossBackward0>)|
+|  9   |   0   | tensor(0.0702, grad_fn=<NllLossBackward0>)|
+|  9   |  10   | tensor(0.0079, grad_fn=<NllLossBackward0>)|
+| 10   |   0   | tensor(0.0040, grad_fn=<NllLossBackward0>)|
+| 10   |  10   | tensor(0.0175, grad_fn=<NllLossBackward0>)|
+| 11   |   0   | tensor(0.0284, grad_fn=<NllLossBackward0>)|
+| 11   |  10   | tensor(0.0492, grad_fn=<NllLossBackward0>)|
+| 12   |   0   | tensor(0.0107, grad_fn=<NllLossBackward0>)|
+| 12   |  10   | tensor(0.0206, grad_fn=<NllLossBackward0>)|
+| 13   |   0   | tensor(0.0338, grad_fn=<NllLossBackward0>)|
+| 13   |  10   | tensor(0.0116, grad_fn=<NllLossBackward0>)|
+| 14   |   0   | tensor(0.0640, grad_fn=<NllLossBackward0>)|
+| 14   |  10   | tensor(0.0077, grad_fn=<NllLossBackward0>)|
+| 15   |   0   | tensor(0.0190, grad_fn=<NllLossBackward0>)|
+| 15   |  10   | tensor(0.0034, grad_fn=<NllLossBackward0>)|
+| 16   |   0   | tensor(0.0065, grad_fn=<NllLossBackward0>)|
+| 16   |  10   | tensor(0.0136, grad_fn=<NllLossBackward0>)|
+| 17   |   0   | tensor(0.0103, grad_fn=<NllLossBackward0>)|
+| 17   |  10   | tensor(0.0074, grad_fn=<NllLossBackward0>)|
+| 18   |   0   | tensor(0.0025, grad_fn=<NllLossBackward0>)|
+| 18   |  10   | tensor(0.0062, grad_fn=<NllLossBackward0>)|
++----------------------------------------------------------+
+                      Training Status                       
++----------------------------------------------------------+
+|Epoch | Steps |                    Loss                   |
+|------+-------+-------------------------------------------|
+|  0   |   0   | tensor(8.4754, grad_fn=<NllLossBackward0>)|
+|  0   |  10   | tensor(1.7911, grad_fn=<NllLossBackward0>)|
+|  1   |   0   | tensor(1.6946, grad_fn=<NllLossBackward0>)|
+|  1   |  10   | tensor(1.0421, grad_fn=<NllLossBackward0>)|
+|  2   |   0   | tensor(0.3912, grad_fn=<NllLossBackward0>)|
+|  2   |  10   | tensor(0.5993, grad_fn=<NllLossBackward0>)|
+|  3   |   0   | tensor(0.2603, grad_fn=<NllLossBackward0>)|
+|  3   |  10   | tensor(0.2848, grad_fn=<NllLossBackward0>)|
+|  4   |   0   | tensor(0.3090, grad_fn=<NllLossBackward0>)|
+|  4   |  10   | tensor(0.2859, grad_fn=<NllLossBackward0>)|
+|  5   |   0   | tensor(0.0199, grad_fn=<NllLossBackward0>)|
+|  5   |  10   | tensor(0.1719, grad_fn=<NllLossBackward0>)|
+|  6   |   0   | tensor(0.1313, grad_fn=<NllLossBackward0>)|
+|  6   |  10   | tensor(0.0658, grad_fn=<NllLossBackward0>)|
+|  7   |   0   | tensor(0.0306, grad_fn=<NllLossBackward0>)|
+|  7   |  10   | tensor(0.0385, grad_fn=<NllLossBackward0>)|
+|  8   |   0   | tensor(0.0441, grad_fn=<NllLossBackward0>)|
+|  8   |  10   | tensor(0.0138, grad_fn=<NllLossBackward0>)|
+|  9   |   0   | tensor(0.0702, grad_fn=<NllLossBackward0>)|
+|  9   |  10   | tensor(0.0079, grad_fn=<NllLossBackward0>)|
+| 10   |   0   | tensor(0.0040, grad_fn=<NllLossBackward0>)|
+| 10   |  10   | tensor(0.0175, grad_fn=<NllLossBackward0>)|
+| 11   |   0   | tensor(0.0284, grad_fn=<NllLossBackward0>)|
+| 11   |  10   | tensor(0.0492, grad_fn=<NllLossBackward0>)|
+| 12   |   0   | tensor(0.0107, grad_fn=<NllLossBackward0>)|
+| 12   |  10   | tensor(0.0206, grad_fn=<NllLossBackward0>)|
+| 13   |   0   | tensor(0.0338, grad_fn=<NllLossBackward0>)|
+| 13   |  10   | tensor(0.0116, grad_fn=<NllLossBackward0>)|
+| 14   |   0   | tensor(0.0640, grad_fn=<NllLossBackward0>)|
+| 14   |  10   | tensor(0.0077, grad_fn=<NllLossBackward0>)|
+| 15   |   0   | tensor(0.0190, grad_fn=<NllLossBackward0>)|
+| 15   |  10   | tensor(0.0034, grad_fn=<NllLossBackward0>)|
+| 16   |   0   | tensor(0.0065, grad_fn=<NllLossBackward0>)|
+| 16   |  10   | tensor(0.0136, grad_fn=<NllLossBackward0>)|
+| 17   |   0   | tensor(0.0103, grad_fn=<NllLossBackward0>)|
+| 17   |  10   | tensor(0.0074, grad_fn=<NllLossBackward0>)|
+| 18   |   0   | tensor(0.0025, grad_fn=<NllLossBackward0>)|
+| 18   |  10   | tensor(0.0062, grad_fn=<NllLossBackward0>)|
+| 19   |   0   | tensor(0.0025, grad_fn=<NllLossBackward0>)|
++----------------------------------------------------------+
+                      Training Status                       
++----------------------------------------------------------+
+|Epoch | Steps |                    Loss                   |
+|------+-------+-------------------------------------------|
+|  0   |   0   | tensor(8.4754, grad_fn=<NllLossBackward0>)|
+|  0   |  10   | tensor(1.7911, grad_fn=<NllLossBackward0>)|
+|  1   |   0   | tensor(1.6946, grad_fn=<NllLossBackward0>)|
+|  1   |  10   | tensor(1.0421, grad_fn=<NllLossBackward0>)|
+|  2   |   0   | tensor(0.3912, grad_fn=<NllLossBackward0>)|
+|  2   |  10   | tensor(0.5993, grad_fn=<NllLossBackward0>)|
+|  3   |   0   | tensor(0.2603, grad_fn=<NllLossBackward0>)|
+|  3   |  10   | tensor(0.2848, grad_fn=<NllLossBackward0>)|
+|  4   |   0   | tensor(0.3090, grad_fn=<NllLossBackward0>)|
+|  4   |  10   | tensor(0.2859, grad_fn=<NllLossBackward0>)|
+|  5   |   0   | tensor(0.0199, grad_fn=<NllLossBackward0>)|
+|  5   |  10   | tensor(0.1719, grad_fn=<NllLossBackward0>)|
+|  6   |   0   | tensor(0.1313, grad_fn=<NllLossBackward0>)|
+|  6   |  10   | tensor(0.0658, grad_fn=<NllLossBackward0>)|
+|  7   |   0   | tensor(0.0306, grad_fn=<NllLossBackward0>)|
+|  7   |  10   | tensor(0.0385, grad_fn=<NllLossBackward0>)|
+|  8   |   0   | tensor(0.0441, grad_fn=<NllLossBackward0>)|
+|  8   |  10   | tensor(0.0138, grad_fn=<NllLossBackward0>)|
+|  9   |   0   | tensor(0.0702, grad_fn=<NllLossBackward0>)|
+|  9   |  10   | tensor(0.0079, grad_fn=<NllLossBackward0>)|
+| 10   |   0   | tensor(0.0040, grad_fn=<NllLossBackward0>)|
+| 10   |  10   | tensor(0.0175, grad_fn=<NllLossBackward0>)|
+| 11   |   0   | tensor(0.0284, grad_fn=<NllLossBackward0>)|
+| 11   |  10   | tensor(0.0492, grad_fn=<NllLossBackward0>)|
+| 12   |   0   | tensor(0.0107, grad_fn=<NllLossBackward0>)|
+| 12   |  10   | tensor(0.0206, grad_fn=<NllLossBackward0>)|
+| 13   |   0   | tensor(0.0338, grad_fn=<NllLossBackward0>)|
+| 13   |  10   | tensor(0.0116, grad_fn=<NllLossBackward0>)|
+| 14   |   0   | tensor(0.0640, grad_fn=<NllLossBackward0>)|
+| 14   |  10   | tensor(0.0077, grad_fn=<NllLossBackward0>)|
+| 15   |   0   | tensor(0.0190, grad_fn=<NllLossBackward0>)|
+| 15   |  10   | tensor(0.0034, grad_fn=<NllLossBackward0>)|
+| 16   |   0   | tensor(0.0065, grad_fn=<NllLossBackward0>)|
+| 16   |  10   | tensor(0.0136, grad_fn=<NllLossBackward0>)|
+| 17   |   0   | tensor(0.0103, grad_fn=<NllLossBackward0>)|
+| 17   |  10   | tensor(0.0074, grad_fn=<NllLossBackward0>)|
+| 18   |   0   | tensor(0.0025, grad_fn=<NllLossBackward0>)|
+| 18   |  10   | tensor(0.0062, grad_fn=<NllLossBackward0>)|
+| 19   |   0   | tensor(0.0025, grad_fn=<NllLossBackward0>)|
+| 19   |  10   | tensor(0.0137, grad_fn=<NllLossBackward0>)|
++----------------------------------------------------------+
+                      Training Status                       
++----------------------------------------------------------+
+|Epoch | Steps |                    Loss                   |
+|------+-------+-------------------------------------------|
+|  0   |   0   | tensor(8.4754, grad_fn=<NllLossBackward0>)|
+|  0   |  10   | tensor(1.7911, grad_fn=<NllLossBackward0>)|
+|  1   |   0   | tensor(1.6946, grad_fn=<NllLossBackward0>)|
+|  1   |  10   | tensor(1.0421, grad_fn=<NllLossBackward0>)|
+|  2   |   0   | tensor(0.3912, grad_fn=<NllLossBackward0>)|
+|  2   |  10   | tensor(0.5993, grad_fn=<NllLossBackward0>)|
+|  3   |   0   | tensor(0.2603, grad_fn=<NllLossBackward0>)|
+|  3   |  10   | tensor(0.2848, grad_fn=<NllLossBackward0>)|
+|  4   |   0   | tensor(0.3090, grad_fn=<NllLossBackward0>)|
+|  4   |  10   | tensor(0.2859, grad_fn=<NllLossBackward0>)|
+|  5   |   0   | tensor(0.0199, grad_fn=<NllLossBackward0>)|
+|  5   |  10   | tensor(0.1719, grad_fn=<NllLossBackward0>)|
+|  6   |   0   | tensor(0.1313, grad_fn=<NllLossBackward0>)|
+|  6   |  10   | tensor(0.0658, grad_fn=<NllLossBackward0>)|
+|  7   |   0   | tensor(0.0306, grad_fn=<NllLossBackward0>)|
+|  7   |  10   | tensor(0.0385, grad_fn=<NllLossBackward0>)|
+|  8   |   0   | tensor(0.0441, grad_fn=<NllLossBackward0>)|
+|  8   |  10   | tensor(0.0138, grad_fn=<NllLossBackward0>)|
+|  9   |   0   | tensor(0.0702, grad_fn=<NllLossBackward0>)|
+|  9   |  10   | tensor(0.0079, grad_fn=<NllLossBackward0>)|
+| 10   |   0   | tensor(0.0040, grad_fn=<NllLossBackward0>)|
+| 10   |  10   | tensor(0.0175, grad_fn=<NllLossBackward0>)|
+| 11   |   0   | tensor(0.0284, grad_fn=<NllLossBackward0>)|
+| 11   |  10   | tensor(0.0492, grad_fn=<NllLossBackward0>)|
+| 12   |   0   | tensor(0.0107, grad_fn=<NllLossBackward0>)|
+| 12   |  10   | tensor(0.0206, grad_fn=<NllLossBackward0>)|
+| 13   |   0   | tensor(0.0338, grad_fn=<NllLossBackward0>)|
+| 13   |  10   | tensor(0.0116, grad_fn=<NllLossBackward0>)|
+| 14   |   0   | tensor(0.0640, grad_fn=<NllLossBackward0>)|
+| 14   |  10   | tensor(0.0077, grad_fn=<NllLossBackward0>)|
+| 15   |   0   | tensor(0.0190, grad_fn=<NllLossBackward0>)|
+| 15   |  10   | tensor(0.0034, grad_fn=<NllLossBackward0>)|
+| 16   |   0   | tensor(0.0065, grad_fn=<NllLossBackward0>)|
+| 16   |  10   | tensor(0.0136, grad_fn=<NllLossBackward0>)|
+| 17   |   0   | tensor(0.0103, grad_fn=<NllLossBackward0>)|
+| 17   |  10   | tensor(0.0074, grad_fn=<NllLossBackward0>)|
+| 18   |   0   | tensor(0.0025, grad_fn=<NllLossBackward0>)|
+| 18   |  10   | tensor(0.0062, grad_fn=<NllLossBackward0>)|
+| 19   |   0   | tensor(0.0025, grad_fn=<NllLossBackward0>)|
+| 19   |  10   | tensor(0.0137, grad_fn=<NllLossBackward0>)|
+| 20   |   0   | tensor(0.0044, grad_fn=<NllLossBackward0>)|
++----------------------------------------------------------+
+                      Training Status                       
++----------------------------------------------------------+
+|Epoch | Steps |                    Loss                   |
+|------+-------+-------------------------------------------|
+|  0   |   0   | tensor(8.4754, grad_fn=<NllLossBackward0>)|
+|  0   |  10   | tensor(1.7911, grad_fn=<NllLossBackward0>)|
+|  1   |   0   | tensor(1.6946, grad_fn=<NllLossBackward0>)|
+|  1   |  10   | tensor(1.0421, grad_fn=<NllLossBackward0>)|
+|  2   |   0   | tensor(0.3912, grad_fn=<NllLossBackward0>)|
+|  2   |  10   | tensor(0.5993, grad_fn=<NllLossBackward0>)|
+|  3   |   0   | tensor(0.2603, grad_fn=<NllLossBackward0>)|
+|  3   |  10   | tensor(0.2848, grad_fn=<NllLossBackward0>)|
+|  4   |   0   | tensor(0.3090, grad_fn=<NllLossBackward0>)|
+|  4   |  10   | tensor(0.2859, grad_fn=<NllLossBackward0>)|
+|  5   |   0   | tensor(0.0199, grad_fn=<NllLossBackward0>)|
+|  5   |  10   | tensor(0.1719, grad_fn=<NllLossBackward0>)|
+|  6   |   0   | tensor(0.1313, grad_fn=<NllLossBackward0>)|
+|  6   |  10   | tensor(0.0658, grad_fn=<NllLossBackward0>)|
+|  7   |   0   | tensor(0.0306, grad_fn=<NllLossBackward0>)|
+|  7   |  10   | tensor(0.0385, grad_fn=<NllLossBackward0>)|
+|  8   |   0   | tensor(0.0441, grad_fn=<NllLossBackward0>)|
+|  8   |  10   | tensor(0.0138, grad_fn=<NllLossBackward0>)|
+|  9   |   0   | tensor(0.0702, grad_fn=<NllLossBackward0>)|
+|  9   |  10   | tensor(0.0079, grad_fn=<NllLossBackward0>)|
+| 10   |   0   | tensor(0.0040, grad_fn=<NllLossBackward0>)|
+| 10   |  10   | tensor(0.0175, grad_fn=<NllLossBackward0>)|
+| 11   |   0   | tensor(0.0284, grad_fn=<NllLossBackward0>)|
+| 11   |  10   | tensor(0.0492, grad_fn=<NllLossBackward0>)|
+| 12   |   0   | tensor(0.0107, grad_fn=<NllLossBackward0>)|
+| 12   |  10   | tensor(0.0206, grad_fn=<NllLossBackward0>)|
+| 13   |   0   | tensor(0.0338, grad_fn=<NllLossBackward0>)|
+| 13   |  10   | tensor(0.0116, grad_fn=<NllLossBackward0>)|
+| 14   |   0   | tensor(0.0640, grad_fn=<NllLossBackward0>)|
+| 14   |  10   | tensor(0.0077, grad_fn=<NllLossBackward0>)|
+| 15   |   0   | tensor(0.0190, grad_fn=<NllLossBackward0>)|
+| 15   |  10   | tensor(0.0034, grad_fn=<NllLossBackward0>)|
+| 16   |   0   | tensor(0.0065, grad_fn=<NllLossBackward0>)|
+| 16   |  10   | tensor(0.0136, grad_fn=<NllLossBackward0>)|
+| 17   |   0   | tensor(0.0103, grad_fn=<NllLossBackward0>)|
+| 17   |  10   | tensor(0.0074, grad_fn=<NllLossBackward0>)|
+| 18   |   0   | tensor(0.0025, grad_fn=<NllLossBackward0>)|
+| 18   |  10   | tensor(0.0062, grad_fn=<NllLossBackward0>)|
+| 19   |   0   | tensor(0.0025, grad_fn=<NllLossBackward0>)|
+| 19   |  10   | tensor(0.0137, grad_fn=<NllLossBackward0>)|
+| 20   |   0   | tensor(0.0044, grad_fn=<NllLossBackward0>)|
+| 20   |  10   | tensor(0.0168, grad_fn=<NllLossBackward0>)|
++----------------------------------------------------------+
+                      Training Status                       
++----------------------------------------------------------+
+|Epoch | Steps |                    Loss                   |
+|------+-------+-------------------------------------------|
+|  0   |   0   | tensor(8.4754, grad_fn=<NllLossBackward0>)|
+|  0   |  10   | tensor(1.7911, grad_fn=<NllLossBackward0>)|
+|  1   |   0   | tensor(1.6946, grad_fn=<NllLossBackward0>)|
+|  1   |  10   | tensor(1.0421, grad_fn=<NllLossBackward0>)|
+|  2   |   0   | tensor(0.3912, grad_fn=<NllLossBackward0>)|
+|  2   |  10   | tensor(0.5993, grad_fn=<NllLossBackward0>)|
+|  3   |   0   | tensor(0.2603, grad_fn=<NllLossBackward0>)|
+|  3   |  10   | tensor(0.2848, grad_fn=<NllLossBackward0>)|
+|  4   |   0   | tensor(0.3090, grad_fn=<NllLossBackward0>)|
+|  4   |  10   | tensor(0.2859, grad_fn=<NllLossBackward0>)|
+|  5   |   0   | tensor(0.0199, grad_fn=<NllLossBackward0>)|
+|  5   |  10   | tensor(0.1719, grad_fn=<NllLossBackward0>)|
+|  6   |   0   | tensor(0.1313, grad_fn=<NllLossBackward0>)|
+|  6   |  10   | tensor(0.0658, grad_fn=<NllLossBackward0>)|
+|  7   |   0   | tensor(0.0306, grad_fn=<NllLossBackward0>)|
+|  7   |  10   | tensor(0.0385, grad_fn=<NllLossBackward0>)|
+|  8   |   0   | tensor(0.0441, grad_fn=<NllLossBackward0>)|
+|  8   |  10   | tensor(0.0138, grad_fn=<NllLossBackward0>)|
+|  9   |   0   | tensor(0.0702, grad_fn=<NllLossBackward0>)|
+|  9   |  10   | tensor(0.0079, grad_fn=<NllLossBackward0>)|
+| 10   |   0   | tensor(0.0040, grad_fn=<NllLossBackward0>)|
+| 10   |  10   | tensor(0.0175, grad_fn=<NllLossBackward0>)|
+| 11   |   0   | tensor(0.0284, grad_fn=<NllLossBackward0>)|
+| 11   |  10   | tensor(0.0492, grad_fn=<NllLossBackward0>)|
+| 12   |   0   | tensor(0.0107, grad_fn=<NllLossBackward0>)|
+| 12   |  10   | tensor(0.0206, grad_fn=<NllLossBackward0>)|
+| 13   |   0   | tensor(0.0338, grad_fn=<NllLossBackward0>)|
+| 13   |  10   | tensor(0.0116, grad_fn=<NllLossBackward0>)|
+| 14   |   0   | tensor(0.0640, grad_fn=<NllLossBackward0>)|
+| 14   |  10   | tensor(0.0077, grad_fn=<NllLossBackward0>)|
+| 15   |   0   | tensor(0.0190, grad_fn=<NllLossBackward0>)|
+| 15   |  10   | tensor(0.0034, grad_fn=<NllLossBackward0>)|
+| 16   |   0   | tensor(0.0065, grad_fn=<NllLossBackward0>)|
+| 16   |  10   | tensor(0.0136, grad_fn=<NllLossBackward0>)|
+| 17   |   0   | tensor(0.0103, grad_fn=<NllLossBackward0>)|
+| 17   |  10   | tensor(0.0074, grad_fn=<NllLossBackward0>)|
+| 18   |   0   | tensor(0.0025, grad_fn=<NllLossBackward0>)|
+| 18   |  10   | tensor(0.0062, grad_fn=<NllLossBackward0>)|
+| 19   |   0   | tensor(0.0025, grad_fn=<NllLossBackward0>)|
+| 19   |  10   | tensor(0.0137, grad_fn=<NllLossBackward0>)|
+| 20   |   0   | tensor(0.0044, grad_fn=<NllLossBackward0>)|
+| 20   |  10   | tensor(0.0168, grad_fn=<NllLossBackward0>)|
+| 21   |   0   | tensor(0.0025, grad_fn=<NllLossBackward0>)|
++----------------------------------------------------------+
+                      Training Status                       
++----------------------------------------------------------+
+|Epoch | Steps |                    Loss                   |
+|------+-------+-------------------------------------------|
+|  0   |   0   | tensor(8.4754, grad_fn=<NllLossBackward0>)|
+|  0   |  10   | tensor(1.7911, grad_fn=<NllLossBackward0>)|
+|  1   |   0   | tensor(1.6946, grad_fn=<NllLossBackward0>)|
+|  1   |  10   | tensor(1.0421, grad_fn=<NllLossBackward0>)|
+|  2   |   0   | tensor(0.3912, grad_fn=<NllLossBackward0>)|
+|  2   |  10   | tensor(0.5993, grad_fn=<NllLossBackward0>)|
+|  3   |   0   | tensor(0.2603, grad_fn=<NllLossBackward0>)|
+|  3   |  10   | tensor(0.2848, grad_fn=<NllLossBackward0>)|
+|  4   |   0   | tensor(0.3090, grad_fn=<NllLossBackward0>)|
+|  4   |  10   | tensor(0.2859, grad_fn=<NllLossBackward0>)|
+|  5   |   0   | tensor(0.0199, grad_fn=<NllLossBackward0>)|
+|  5   |  10   | tensor(0.1719, grad_fn=<NllLossBackward0>)|
+|  6   |   0   | tensor(0.1313, grad_fn=<NllLossBackward0>)|
+|  6   |  10   | tensor(0.0658, grad_fn=<NllLossBackward0>)|
+|  7   |   0   | tensor(0.0306, grad_fn=<NllLossBackward0>)|
+|  7   |  10   | tensor(0.0385, grad_fn=<NllLossBackward0>)|
+|  8   |   0   | tensor(0.0441, grad_fn=<NllLossBackward0>)|
+|  8   |  10   | tensor(0.0138, grad_fn=<NllLossBackward0>)|
+|  9   |   0   | tensor(0.0702, grad_fn=<NllLossBackward0>)|
+|  9   |  10   | tensor(0.0079, grad_fn=<NllLossBackward0>)|
+| 10   |   0   | tensor(0.0040, grad_fn=<NllLossBackward0>)|
+| 10   |  10   | tensor(0.0175, grad_fn=<NllLossBackward0>)|
+| 11   |   0   | tensor(0.0284, grad_fn=<NllLossBackward0>)|
+| 11   |  10   | tensor(0.0492, grad_fn=<NllLossBackward0>)|
+| 12   |   0   | tensor(0.0107, grad_fn=<NllLossBackward0>)|
+| 12   |  10   | tensor(0.0206, grad_fn=<NllLossBackward0>)|
+| 13   |   0   | tensor(0.0338, grad_fn=<NllLossBackward0>)|
+| 13   |  10   | tensor(0.0116, grad_fn=<NllLossBackward0>)|
+| 14   |   0   | tensor(0.0640, grad_fn=<NllLossBackward0>)|
+| 14   |  10   | tensor(0.0077, grad_fn=<NllLossBackward0>)|
+| 15   |   0   | tensor(0.0190, grad_fn=<NllLossBackward0>)|
+| 15   |  10   | tensor(0.0034, grad_fn=<NllLossBackward0>)|
+| 16   |   0   | tensor(0.0065, grad_fn=<NllLossBackward0>)|
+| 16   |  10   | tensor(0.0136, grad_fn=<NllLossBackward0>)|
+| 17   |   0   | tensor(0.0103, grad_fn=<NllLossBackward0>)|
+| 17   |  10   | tensor(0.0074, grad_fn=<NllLossBackward0>)|
+| 18   |   0   | tensor(0.0025, grad_fn=<NllLossBackward0>)|
+| 18   |  10   | tensor(0.0062, grad_fn=<NllLossBackward0>)|
+| 19   |   0   | tensor(0.0025, grad_fn=<NllLossBackward0>)|
+| 19   |  10   | tensor(0.0137, grad_fn=<NllLossBackward0>)|
+| 20   |   0   | tensor(0.0044, grad_fn=<NllLossBackward0>)|
+| 20   |  10   | tensor(0.0168, grad_fn=<NllLossBackward0>)|
+| 21   |   0   | tensor(0.0025, grad_fn=<NllLossBackward0>)|
+| 21   |  10   | tensor(0.0020, grad_fn=<NllLossBackward0>)|
++----------------------------------------------------------+
+                      Training Status                       
++----------------------------------------------------------+
+|Epoch | Steps |                    Loss                   |
+|------+-------+-------------------------------------------|
+|  0   |   0   | tensor(8.4754, grad_fn=<NllLossBackward0>)|
+|  0   |  10   | tensor(1.7911, grad_fn=<NllLossBackward0>)|
+|  1   |   0   | tensor(1.6946, grad_fn=<NllLossBackward0>)|
+|  1   |  10   | tensor(1.0421, grad_fn=<NllLossBackward0>)|
+|  2   |   0   | tensor(0.3912, grad_fn=<NllLossBackward0>)|
+|  2   |  10   | tensor(0.5993, grad_fn=<NllLossBackward0>)|
+|  3   |   0   | tensor(0.2603, grad_fn=<NllLossBackward0>)|
+|  3   |  10   | tensor(0.2848, grad_fn=<NllLossBackward0>)|
+|  4   |   0   | tensor(0.3090, grad_fn=<NllLossBackward0>)|
+|  4   |  10   | tensor(0.2859, grad_fn=<NllLossBackward0>)|
+|  5   |   0   | tensor(0.0199, grad_fn=<NllLossBackward0>)|
+|  5   |  10   | tensor(0.1719, grad_fn=<NllLossBackward0>)|
+|  6   |   0   | tensor(0.1313, grad_fn=<NllLossBackward0>)|
+|  6   |  10   | tensor(0.0658, grad_fn=<NllLossBackward0>)|
+|  7   |   0   | tensor(0.0306, grad_fn=<NllLossBackward0>)|
+|  7   |  10   | tensor(0.0385, grad_fn=<NllLossBackward0>)|
+|  8   |   0   | tensor(0.0441, grad_fn=<NllLossBackward0>)|
+|  8   |  10   | tensor(0.0138, grad_fn=<NllLossBackward0>)|
+|  9   |   0   | tensor(0.0702, grad_fn=<NllLossBackward0>)|
+|  9   |  10   | tensor(0.0079, grad_fn=<NllLossBackward0>)|
+| 10   |   0   | tensor(0.0040, grad_fn=<NllLossBackward0>)|
+| 10   |  10   | tensor(0.0175, grad_fn=<NllLossBackward0>)|
+| 11   |   0   | tensor(0.0284, grad_fn=<NllLossBackward0>)|
+| 11   |  10   | tensor(0.0492, grad_fn=<NllLossBackward0>)|
+| 12   |   0   | tensor(0.0107, grad_fn=<NllLossBackward0>)|
+| 12   |  10   | tensor(0.0206, grad_fn=<NllLossBackward0>)|
+| 13   |   0   | tensor(0.0338, grad_fn=<NllLossBackward0>)|
+| 13   |  10   | tensor(0.0116, grad_fn=<NllLossBackward0>)|
+| 14   |   0   | tensor(0.0640, grad_fn=<NllLossBackward0>)|
+| 14   |  10   | tensor(0.0077, grad_fn=<NllLossBackward0>)|
+| 15   |   0   | tensor(0.0190, grad_fn=<NllLossBackward0>)|
+| 15   |  10   | tensor(0.0034, grad_fn=<NllLossBackward0>)|
+| 16   |   0   | tensor(0.0065, grad_fn=<NllLossBackward0>)|
+| 16   |  10   | tensor(0.0136, grad_fn=<NllLossBackward0>)|
+| 17   |   0   | tensor(0.0103, grad_fn=<NllLossBackward0>)|
+| 17   |  10   | tensor(0.0074, grad_fn=<NllLossBackward0>)|
+| 18   |   0   | tensor(0.0025, grad_fn=<NllLossBackward0>)|
+| 18   |  10   | tensor(0.0062, grad_fn=<NllLossBackward0>)|
+| 19   |   0   | tensor(0.0025, grad_fn=<NllLossBackward0>)|
+| 19   |  10   | tensor(0.0137, grad_fn=<NllLossBackward0>)|
+| 20   |   0   | tensor(0.0044, grad_fn=<NllLossBackward0>)|
+| 20   |  10   | tensor(0.0168, grad_fn=<NllLossBackward0>)|
+| 21   |   0   | tensor(0.0025, grad_fn=<NllLossBackward0>)|
+| 21   |  10   | tensor(0.0020, grad_fn=<NllLossBackward0>)|
+| 22   |   0   | tensor(0.0143, grad_fn=<NllLossBackward0>)|
++----------------------------------------------------------+
+                      Training Status                       
++----------------------------------------------------------+
+|Epoch | Steps |                    Loss                   |
+|------+-------+-------------------------------------------|
+|  0   |   0   | tensor(8.4754, grad_fn=<NllLossBackward0>)|
+|  0   |  10   | tensor(1.7911, grad_fn=<NllLossBackward0>)|
+|  1   |   0   | tensor(1.6946, grad_fn=<NllLossBackward0>)|
+|  1   |  10   | tensor(1.0421, grad_fn=<NllLossBackward0>)|
+|  2   |   0   | tensor(0.3912, grad_fn=<NllLossBackward0>)|
+|  2   |  10   | tensor(0.5993, grad_fn=<NllLossBackward0>)|
+|  3   |   0   | tensor(0.2603, grad_fn=<NllLossBackward0>)|
+|  3   |  10   | tensor(0.2848, grad_fn=<NllLossBackward0>)|
+|  4   |   0   | tensor(0.3090, grad_fn=<NllLossBackward0>)|
+|  4   |  10   | tensor(0.2859, grad_fn=<NllLossBackward0>)|
+|  5   |   0   | tensor(0.0199, grad_fn=<NllLossBackward0>)|
+|  5   |  10   | tensor(0.1719, grad_fn=<NllLossBackward0>)|
+|  6   |   0   | tensor(0.1313, grad_fn=<NllLossBackward0>)|
+|  6   |  10   | tensor(0.0658, grad_fn=<NllLossBackward0>)|
+|  7   |   0   | tensor(0.0306, grad_fn=<NllLossBackward0>)|
+|  7   |  10   | tensor(0.0385, grad_fn=<NllLossBackward0>)|
+|  8   |   0   | tensor(0.0441, grad_fn=<NllLossBackward0>)|
+|  8   |  10   | tensor(0.0138, grad_fn=<NllLossBackward0>)|
+|  9   |   0   | tensor(0.0702, grad_fn=<NllLossBackward0>)|
+|  9   |  10   | tensor(0.0079, grad_fn=<NllLossBackward0>)|
+| 10   |   0   | tensor(0.0040, grad_fn=<NllLossBackward0>)|
+| 10   |  10   | tensor(0.0175, grad_fn=<NllLossBackward0>)|
+| 11   |   0   | tensor(0.0284, grad_fn=<NllLossBackward0>)|
+| 11   |  10   | tensor(0.0492, grad_fn=<NllLossBackward0>)|
+| 12   |   0   | tensor(0.0107, grad_fn=<NllLossBackward0>)|
+| 12   |  10   | tensor(0.0206, grad_fn=<NllLossBackward0>)|
+| 13   |   0   | tensor(0.0338, grad_fn=<NllLossBackward0>)|
+| 13   |  10   | tensor(0.0116, grad_fn=<NllLossBackward0>)|
+| 14   |   0   | tensor(0.0640, grad_fn=<NllLossBackward0>)|
+| 14   |  10   | tensor(0.0077, grad_fn=<NllLossBackward0>)|
+| 15   |   0   | tensor(0.0190, grad_fn=<NllLossBackward0>)|
+| 15   |  10   | tensor(0.0034, grad_fn=<NllLossBackward0>)|
+| 16   |   0   | tensor(0.0065, grad_fn=<NllLossBackward0>)|
+| 16   |  10   | tensor(0.0136, grad_fn=<NllLossBackward0>)|
+| 17   |   0   | tensor(0.0103, grad_fn=<NllLossBackward0>)|
+| 17   |  10   | tensor(0.0074, grad_fn=<NllLossBackward0>)|
+| 18   |   0   | tensor(0.0025, grad_fn=<NllLossBackward0>)|
+| 18   |  10   | tensor(0.0062, grad_fn=<NllLossBackward0>)|
+| 19   |   0   | tensor(0.0025, grad_fn=<NllLossBackward0>)|
+| 19   |  10   | tensor(0.0137, grad_fn=<NllLossBackward0>)|
+| 20   |   0   | tensor(0.0044, grad_fn=<NllLossBackward0>)|
+| 20   |  10   | tensor(0.0168, grad_fn=<NllLossBackward0>)|
+| 21   |   0   | tensor(0.0025, grad_fn=<NllLossBackward0>)|
+| 21   |  10   | tensor(0.0020, grad_fn=<NllLossBackward0>)|
+| 22   |   0   | tensor(0.0143, grad_fn=<NllLossBackward0>)|
+| 22   |  10   | tensor(0.0144, grad_fn=<NllLossBackward0>)|
++----------------------------------------------------------+
+                      Training Status                       
++----------------------------------------------------------+
+|Epoch | Steps |                    Loss                   |
+|------+-------+-------------------------------------------|
+|  0   |   0   | tensor(8.4754, grad_fn=<NllLossBackward0>)|
+|  0   |  10   | tensor(1.7911, grad_fn=<NllLossBackward0>)|
+|  1   |   0   | tensor(1.6946, grad_fn=<NllLossBackward0>)|
+|  1   |  10   | tensor(1.0421, grad_fn=<NllLossBackward0>)|
+|  2   |   0   | tensor(0.3912, grad_fn=<NllLossBackward0>)|
+|  2   |  10   | tensor(0.5993, grad_fn=<NllLossBackward0>)|
+|  3   |   0   | tensor(0.2603, grad_fn=<NllLossBackward0>)|
+|  3   |  10   | tensor(0.2848, grad_fn=<NllLossBackward0>)|
+|  4   |   0   | tensor(0.3090, grad_fn=<NllLossBackward0>)|
+|  4   |  10   | tensor(0.2859, grad_fn=<NllLossBackward0>)|
+|  5   |   0   | tensor(0.0199, grad_fn=<NllLossBackward0>)|
+|  5   |  10   | tensor(0.1719, grad_fn=<NllLossBackward0>)|
+|  6   |   0   | tensor(0.1313, grad_fn=<NllLossBackward0>)|
+|  6   |  10   | tensor(0.0658, grad_fn=<NllLossBackward0>)|
+|  7   |   0   | tensor(0.0306, grad_fn=<NllLossBackward0>)|
+|  7   |  10   | tensor(0.0385, grad_fn=<NllLossBackward0>)|
+|  8   |   0   | tensor(0.0441, grad_fn=<NllLossBackward0>)|
+|  8   |  10   | tensor(0.0138, grad_fn=<NllLossBackward0>)|
+|  9   |   0   | tensor(0.0702, grad_fn=<NllLossBackward0>)|
+|  9   |  10   | tensor(0.0079, grad_fn=<NllLossBackward0>)|
+| 10   |   0   | tensor(0.0040, grad_fn=<NllLossBackward0>)|
+| 10   |  10   | tensor(0.0175, grad_fn=<NllLossBackward0>)|
+| 11   |   0   | tensor(0.0284, grad_fn=<NllLossBackward0>)|
+| 11   |  10   | tensor(0.0492, grad_fn=<NllLossBackward0>)|
+| 12   |   0   | tensor(0.0107, grad_fn=<NllLossBackward0>)|
+| 12   |  10   | tensor(0.0206, grad_fn=<NllLossBackward0>)|
+| 13   |   0   | tensor(0.0338, grad_fn=<NllLossBackward0>)|
+| 13   |  10   | tensor(0.0116, grad_fn=<NllLossBackward0>)|
+| 14   |   0   | tensor(0.0640, grad_fn=<NllLossBackward0>)|
+| 14   |  10   | tensor(0.0077, grad_fn=<NllLossBackward0>)|
+| 15   |   0   | tensor(0.0190, grad_fn=<NllLossBackward0>)|
+| 15   |  10   | tensor(0.0034, grad_fn=<NllLossBackward0>)|
+| 16   |   0   | tensor(0.0065, grad_fn=<NllLossBackward0>)|
+| 16   |  10   | tensor(0.0136, grad_fn=<NllLossBackward0>)|
+| 17   |   0   | tensor(0.0103, grad_fn=<NllLossBackward0>)|
+| 17   |  10   | tensor(0.0074, grad_fn=<NllLossBackward0>)|
+| 18   |   0   | tensor(0.0025, grad_fn=<NllLossBackward0>)|
+| 18   |  10   | tensor(0.0062, grad_fn=<NllLossBackward0>)|
+| 19   |   0   | tensor(0.0025, grad_fn=<NllLossBackward0>)|
+| 19   |  10   | tensor(0.0137, grad_fn=<NllLossBackward0>)|
+| 20   |   0   | tensor(0.0044, grad_fn=<NllLossBackward0>)|
+| 20   |  10   | tensor(0.0168, grad_fn=<NllLossBackward0>)|
+| 21   |   0   | tensor(0.0025, grad_fn=<NllLossBackward0>)|
+| 21   |  10   | tensor(0.0020, grad_fn=<NllLossBackward0>)|
+| 22   |   0   | tensor(0.0143, grad_fn=<NllLossBackward0>)|
+| 22   |  10   | tensor(0.0144, grad_fn=<NllLossBackward0>)|
+| 23   |   0   | tensor(0.0152, grad_fn=<NllLossBackward0>)|
++----------------------------------------------------------+
+                      Training Status                       
++----------------------------------------------------------+
+|Epoch | Steps |                    Loss                   |
+|------+-------+-------------------------------------------|
+|  0   |   0   | tensor(8.4754, grad_fn=<NllLossBackward0>)|
+|  0   |  10   | tensor(1.7911, grad_fn=<NllLossBackward0>)|
+|  1   |   0   | tensor(1.6946, grad_fn=<NllLossBackward0>)|
+|  1   |  10   | tensor(1.0421, grad_fn=<NllLossBackward0>)|
+|  2   |   0   | tensor(0.3912, grad_fn=<NllLossBackward0>)|
+|  2   |  10   | tensor(0.5993, grad_fn=<NllLossBackward0>)|
+|  3   |   0   | tensor(0.2603, grad_fn=<NllLossBackward0>)|
+|  3   |  10   | tensor(0.2848, grad_fn=<NllLossBackward0>)|
+|  4   |   0   | tensor(0.3090, grad_fn=<NllLossBackward0>)|
+|  4   |  10   | tensor(0.2859, grad_fn=<NllLossBackward0>)|
+|  5   |   0   | tensor(0.0199, grad_fn=<NllLossBackward0>)|
+|  5   |  10   | tensor(0.1719, grad_fn=<NllLossBackward0>)|
+|  6   |   0   | tensor(0.1313, grad_fn=<NllLossBackward0>)|
+|  6   |  10   | tensor(0.0658, grad_fn=<NllLossBackward0>)|
+|  7   |   0   | tensor(0.0306, grad_fn=<NllLossBackward0>)|
+|  7   |  10   | tensor(0.0385, grad_fn=<NllLossBackward0>)|
+|  8   |   0   | tensor(0.0441, grad_fn=<NllLossBackward0>)|
+|  8   |  10   | tensor(0.0138, grad_fn=<NllLossBackward0>)|
+|  9   |   0   | tensor(0.0702, grad_fn=<NllLossBackward0>)|
+|  9   |  10   | tensor(0.0079, grad_fn=<NllLossBackward0>)|
+| 10   |   0   | tensor(0.0040, grad_fn=<NllLossBackward0>)|
+| 10   |  10   | tensor(0.0175, grad_fn=<NllLossBackward0>)|
+| 11   |   0   | tensor(0.0284, grad_fn=<NllLossBackward0>)|
+| 11   |  10   | tensor(0.0492, grad_fn=<NllLossBackward0>)|
+| 12   |   0   | tensor(0.0107, grad_fn=<NllLossBackward0>)|
+| 12   |  10   | tensor(0.0206, grad_fn=<NllLossBackward0>)|
+| 13   |   0   | tensor(0.0338, grad_fn=<NllLossBackward0>)|
+| 13   |  10   | tensor(0.0116, grad_fn=<NllLossBackward0>)|
+| 14   |   0   | tensor(0.0640, grad_fn=<NllLossBackward0>)|
+| 14   |  10   | tensor(0.0077, grad_fn=<NllLossBackward0>)|
+| 15   |   0   | tensor(0.0190, grad_fn=<NllLossBackward0>)|
+| 15   |  10   | tensor(0.0034, grad_fn=<NllLossBackward0>)|
+| 16   |   0   | tensor(0.0065, grad_fn=<NllLossBackward0>)|
+| 16   |  10   | tensor(0.0136, grad_fn=<NllLossBackward0>)|
+| 17   |   0   | tensor(0.0103, grad_fn=<NllLossBackward0>)|
+| 17   |  10   | tensor(0.0074, grad_fn=<NllLossBackward0>)|
+| 18   |   0   | tensor(0.0025, grad_fn=<NllLossBackward0>)|
+| 18   |  10   | tensor(0.0062, grad_fn=<NllLossBackward0>)|
+| 19   |   0   | tensor(0.0025, grad_fn=<NllLossBackward0>)|
+| 19   |  10   | tensor(0.0137, grad_fn=<NllLossBackward0>)|
+| 20   |   0   | tensor(0.0044, grad_fn=<NllLossBackward0>)|
+| 20   |  10   | tensor(0.0168, grad_fn=<NllLossBackward0>)|
+| 21   |   0   | tensor(0.0025, grad_fn=<NllLossBackward0>)|
+| 21   |  10   | tensor(0.0020, grad_fn=<NllLossBackward0>)|
+| 22   |   0   | tensor(0.0143, grad_fn=<NllLossBackward0>)|
+| 22   |  10   | tensor(0.0144, grad_fn=<NllLossBackward0>)|
+| 23   |   0   | tensor(0.0152, grad_fn=<NllLossBackward0>)|
+| 23   |  10   | tensor(0.0020, grad_fn=<NllLossBackward0>)|
++----------------------------------------------------------+
+                      Training Status                       
++----------------------------------------------------------+
+|Epoch | Steps |                    Loss                   |
+|------+-------+-------------------------------------------|
+|  0   |   0   | tensor(8.4754, grad_fn=<NllLossBackward0>)|
+|  0   |  10   | tensor(1.7911, grad_fn=<NllLossBackward0>)|
+|  1   |   0   | tensor(1.6946, grad_fn=<NllLossBackward0>)|
+|  1   |  10   | tensor(1.0421, grad_fn=<NllLossBackward0>)|
+|  2   |   0   | tensor(0.3912, grad_fn=<NllLossBackward0>)|
+|  2   |  10   | tensor(0.5993, grad_fn=<NllLossBackward0>)|
+|  3   |   0   | tensor(0.2603, grad_fn=<NllLossBackward0>)|
+|  3   |  10   | tensor(0.2848, grad_fn=<NllLossBackward0>)|
+|  4   |   0   | tensor(0.3090, grad_fn=<NllLossBackward0>)|
+|  4   |  10   | tensor(0.2859, grad_fn=<NllLossBackward0>)|
+|  5   |   0   | tensor(0.0199, grad_fn=<NllLossBackward0>)|
+|  5   |  10   | tensor(0.1719, grad_fn=<NllLossBackward0>)|
+|  6   |   0   | tensor(0.1313, grad_fn=<NllLossBackward0>)|
+|  6   |  10   | tensor(0.0658, grad_fn=<NllLossBackward0>)|
+|  7   |   0   | tensor(0.0306, grad_fn=<NllLossBackward0>)|
+|  7   |  10   | tensor(0.0385, grad_fn=<NllLossBackward0>)|
+|  8   |   0   | tensor(0.0441, grad_fn=<NllLossBackward0>)|
+|  8   |  10   | tensor(0.0138, grad_fn=<NllLossBackward0>)|
+|  9   |   0   | tensor(0.0702, grad_fn=<NllLossBackward0>)|
+|  9   |  10   | tensor(0.0079, grad_fn=<NllLossBackward0>)|
+| 10   |   0   | tensor(0.0040, grad_fn=<NllLossBackward0>)|
+| 10   |  10   | tensor(0.0175, grad_fn=<NllLossBackward0>)|
+| 11   |   0   | tensor(0.0284, grad_fn=<NllLossBackward0>)|
+| 11   |  10   | tensor(0.0492, grad_fn=<NllLossBackward0>)|
+| 12   |   0   | tensor(0.0107, grad_fn=<NllLossBackward0>)|
+| 12   |  10   | tensor(0.0206, grad_fn=<NllLossBackward0>)|
+| 13   |   0   | tensor(0.0338, grad_fn=<NllLossBackward0>)|
+| 13   |  10   | tensor(0.0116, grad_fn=<NllLossBackward0>)|
+| 14   |   0   | tensor(0.0640, grad_fn=<NllLossBackward0>)|
+| 14   |  10   | tensor(0.0077, grad_fn=<NllLossBackward0>)|
+| 15   |   0   | tensor(0.0190, grad_fn=<NllLossBackward0>)|
+| 15   |  10   | tensor(0.0034, grad_fn=<NllLossBackward0>)|
+| 16   |   0   | tensor(0.0065, grad_fn=<NllLossBackward0>)|
+| 16   |  10   | tensor(0.0136, grad_fn=<NllLossBackward0>)|
+| 17   |   0   | tensor(0.0103, grad_fn=<NllLossBackward0>)|
+| 17   |  10   | tensor(0.0074, grad_fn=<NllLossBackward0>)|
+| 18   |   0   | tensor(0.0025, grad_fn=<NllLossBackward0>)|
+| 18   |  10   | tensor(0.0062, grad_fn=<NllLossBackward0>)|
+| 19   |   0   | tensor(0.0025, grad_fn=<NllLossBackward0>)|
+| 19   |  10   | tensor(0.0137, grad_fn=<NllLossBackward0>)|
+| 20   |   0   | tensor(0.0044, grad_fn=<NllLossBackward0>)|
+| 20   |  10   | tensor(0.0168, grad_fn=<NllLossBackward0>)|
+| 21   |   0   | tensor(0.0025, grad_fn=<NllLossBackward0>)|
+| 21   |  10   | tensor(0.0020, grad_fn=<NllLossBackward0>)|
+| 22   |   0   | tensor(0.0143, grad_fn=<NllLossBackward0>)|
+| 22   |  10   | tensor(0.0144, grad_fn=<NllLossBackward0>)|
+| 23   |   0   | tensor(0.0152, grad_fn=<NllLossBackward0>)|
+| 23   |  10   | tensor(0.0020, grad_fn=<NllLossBackward0>)|
+| 24   |   0   | tensor(0.0047, grad_fn=<NllLossBackward0>)|
++----------------------------------------------------------+
+                      Training Status                       
++----------------------------------------------------------+
+|Epoch | Steps |                    Loss                   |
+|------+-------+-------------------------------------------|
+|  0   |   0   | tensor(8.4754, grad_fn=<NllLossBackward0>)|
+|  0   |  10   | tensor(1.7911, grad_fn=<NllLossBackward0>)|
+|  1   |   0   | tensor(1.6946, grad_fn=<NllLossBackward0>)|
+|  1   |  10   | tensor(1.0421, grad_fn=<NllLossBackward0>)|
+|  2   |   0   | tensor(0.3912, grad_fn=<NllLossBackward0>)|
+|  2   |  10   | tensor(0.5993, grad_fn=<NllLossBackward0>)|
+|  3   |   0   | tensor(0.2603, grad_fn=<NllLossBackward0>)|
+|  3   |  10   | tensor(0.2848, grad_fn=<NllLossBackward0>)|
+|  4   |   0   | tensor(0.3090, grad_fn=<NllLossBackward0>)|
+|  4   |  10   | tensor(0.2859, grad_fn=<NllLossBackward0>)|
+|  5   |   0   | tensor(0.0199, grad_fn=<NllLossBackward0>)|
+|  5   |  10   | tensor(0.1719, grad_fn=<NllLossBackward0>)|
+|  6   |   0   | tensor(0.1313, grad_fn=<NllLossBackward0>)|
+|  6   |  10   | tensor(0.0658, grad_fn=<NllLossBackward0>)|
+|  7   |   0   | tensor(0.0306, grad_fn=<NllLossBackward0>)|
+|  7   |  10   | tensor(0.0385, grad_fn=<NllLossBackward0>)|
+|  8   |   0   | tensor(0.0441, grad_fn=<NllLossBackward0>)|
+|  8   |  10   | tensor(0.0138, grad_fn=<NllLossBackward0>)|
+|  9   |   0   | tensor(0.0702, grad_fn=<NllLossBackward0>)|
+|  9   |  10   | tensor(0.0079, grad_fn=<NllLossBackward0>)|
+| 10   |   0   | tensor(0.0040, grad_fn=<NllLossBackward0>)|
+| 10   |  10   | tensor(0.0175, grad_fn=<NllLossBackward0>)|
+| 11   |   0   | tensor(0.0284, grad_fn=<NllLossBackward0>)|
+| 11   |  10   | tensor(0.0492, grad_fn=<NllLossBackward0>)|
+| 12   |   0   | tensor(0.0107, grad_fn=<NllLossBackward0>)|
+| 12   |  10   | tensor(0.0206, grad_fn=<NllLossBackward0>)|
+| 13   |   0   | tensor(0.0338, grad_fn=<NllLossBackward0>)|
+| 13   |  10   | tensor(0.0116, grad_fn=<NllLossBackward0>)|
+| 14   |   0   | tensor(0.0640, grad_fn=<NllLossBackward0>)|
+| 14   |  10   | tensor(0.0077, grad_fn=<NllLossBackward0>)|
+| 15   |   0   | tensor(0.0190, grad_fn=<NllLossBackward0>)|
+| 15   |  10   | tensor(0.0034, grad_fn=<NllLossBackward0>)|
+| 16   |   0   | tensor(0.0065, grad_fn=<NllLossBackward0>)|
+| 16   |  10   | tensor(0.0136, grad_fn=<NllLossBackward0>)|
+| 17   |   0   | tensor(0.0103, grad_fn=<NllLossBackward0>)|
+| 17   |  10   | tensor(0.0074, grad_fn=<NllLossBackward0>)|
+| 18   |   0   | tensor(0.0025, grad_fn=<NllLossBackward0>)|
+| 18   |  10   | tensor(0.0062, grad_fn=<NllLossBackward0>)|
+| 19   |   0   | tensor(0.0025, grad_fn=<NllLossBackward0>)|
+| 19   |  10   | tensor(0.0137, grad_fn=<NllLossBackward0>)|
+| 20   |   0   | tensor(0.0044, grad_fn=<NllLossBackward0>)|
+| 20   |  10   | tensor(0.0168, grad_fn=<NllLossBackward0>)|
+| 21   |   0   | tensor(0.0025, grad_fn=<NllLossBackward0>)|
+| 21   |  10   | tensor(0.0020, grad_fn=<NllLossBackward0>)|
+| 22   |   0   | tensor(0.0143, grad_fn=<NllLossBackward0>)|
+| 22   |  10   | tensor(0.0144, grad_fn=<NllLossBackward0>)|
+| 23   |   0   | tensor(0.0152, grad_fn=<NllLossBackward0>)|
+| 23   |  10   | tensor(0.0020, grad_fn=<NllLossBackward0>)|
+| 24   |   0   | tensor(0.0047, grad_fn=<NllLossBackward0>)|
+| 24   |  10   | tensor(0.0067, grad_fn=<NllLossBackward0>)|
++----------------------------------------------------------+
+                      Training Status                       
++----------------------------------------------------------+
+|Epoch | Steps |                    Loss                   |
+|------+-------+-------------------------------------------|
+|  0   |   0   | tensor(8.4754, grad_fn=<NllLossBackward0>)|
+|  0   |  10   | tensor(1.7911, grad_fn=<NllLossBackward0>)|
+|  1   |   0   | tensor(1.6946, grad_fn=<NllLossBackward0>)|
+|  1   |  10   | tensor(1.0421, grad_fn=<NllLossBackward0>)|
+|  2   |   0   | tensor(0.3912, grad_fn=<NllLossBackward0>)|
+|  2   |  10   | tensor(0.5993, grad_fn=<NllLossBackward0>)|
+|  3   |   0   | tensor(0.2603, grad_fn=<NllLossBackward0>)|
+|  3   |  10   | tensor(0.2848, grad_fn=<NllLossBackward0>)|
+|  4   |   0   | tensor(0.3090, grad_fn=<NllLossBackward0>)|
+|  4   |  10   | tensor(0.2859, grad_fn=<NllLossBackward0>)|
+|  5   |   0   | tensor(0.0199, grad_fn=<NllLossBackward0>)|
+|  5   |  10   | tensor(0.1719, grad_fn=<NllLossBackward0>)|
+|  6   |   0   | tensor(0.1313, grad_fn=<NllLossBackward0>)|
+|  6   |  10   | tensor(0.0658, grad_fn=<NllLossBackward0>)|
+|  7   |   0   | tensor(0.0306, grad_fn=<NllLossBackward0>)|
+|  7   |  10   | tensor(0.0385, grad_fn=<NllLossBackward0>)|
+|  8   |   0   | tensor(0.0441, grad_fn=<NllLossBackward0>)|
+|  8   |  10   | tensor(0.0138, grad_fn=<NllLossBackward0>)|
+|  9   |   0   | tensor(0.0702, grad_fn=<NllLossBackward0>)|
+|  9   |  10   | tensor(0.0079, grad_fn=<NllLossBackward0>)|
+| 10   |   0   | tensor(0.0040, grad_fn=<NllLossBackward0>)|
+| 10   |  10   | tensor(0.0175, grad_fn=<NllLossBackward0>)|
+| 11   |   0   | tensor(0.0284, grad_fn=<NllLossBackward0>)|
+| 11   |  10   | tensor(0.0492, grad_fn=<NllLossBackward0>)|
+| 12   |   0   | tensor(0.0107, grad_fn=<NllLossBackward0>)|
+| 12   |  10   | tensor(0.0206, grad_fn=<NllLossBackward0>)|
+| 13   |   0   | tensor(0.0338, grad_fn=<NllLossBackward0>)|
+| 13   |  10   | tensor(0.0116, grad_fn=<NllLossBackward0>)|
+| 14   |   0   | tensor(0.0640, grad_fn=<NllLossBackward0>)|
+| 14   |  10   | tensor(0.0077, grad_fn=<NllLossBackward0>)|
+| 15   |   0   | tensor(0.0190, grad_fn=<NllLossBackward0>)|
+| 15   |  10   | tensor(0.0034, grad_fn=<NllLossBackward0>)|
+| 16   |   0   | tensor(0.0065, grad_fn=<NllLossBackward0>)|
+| 16   |  10   | tensor(0.0136, grad_fn=<NllLossBackward0>)|
+| 17   |   0   | tensor(0.0103, grad_fn=<NllLossBackward0>)|
+| 17   |  10   | tensor(0.0074, grad_fn=<NllLossBackward0>)|
+| 18   |   0   | tensor(0.0025, grad_fn=<NllLossBackward0>)|
+| 18   |  10   | tensor(0.0062, grad_fn=<NllLossBackward0>)|
+| 19   |   0   | tensor(0.0025, grad_fn=<NllLossBackward0>)|
+| 19   |  10   | tensor(0.0137, grad_fn=<NllLossBackward0>)|
+| 20   |   0   | tensor(0.0044, grad_fn=<NllLossBackward0>)|
+| 20   |  10   | tensor(0.0168, grad_fn=<NllLossBackward0>)|
+| 21   |   0   | tensor(0.0025, grad_fn=<NllLossBackward0>)|
+| 21   |  10   | tensor(0.0020, grad_fn=<NllLossBackward0>)|
+| 22   |   0   | tensor(0.0143, grad_fn=<NllLossBackward0>)|
+| 22   |  10   | tensor(0.0144, grad_fn=<NllLossBackward0>)|
+| 23   |   0   | tensor(0.0152, grad_fn=<NllLossBackward0>)|
+| 23   |  10   | tensor(0.0020, grad_fn=<NllLossBackward0>)|
+| 24   |   0   | tensor(0.0047, grad_fn=<NllLossBackward0>)|
+| 24   |  10   | tensor(0.0067, grad_fn=<NllLossBackward0>)|
+| 25   |   0   | tensor(0.0080, grad_fn=<NllLossBackward0>)|
++----------------------------------------------------------+
+                      Training Status                       
++----------------------------------------------------------+
+|Epoch | Steps |                    Loss                   |
+|------+-------+-------------------------------------------|
+|  0   |   0   | tensor(8.4754, grad_fn=<NllLossBackward0>)|
+|  0   |  10   | tensor(1.7911, grad_fn=<NllLossBackward0>)|
+|  1   |   0   | tensor(1.6946, grad_fn=<NllLossBackward0>)|
+|  1   |  10   | tensor(1.0421, grad_fn=<NllLossBackward0>)|
+|  2   |   0   | tensor(0.3912, grad_fn=<NllLossBackward0>)|
+|  2   |  10   | tensor(0.5993, grad_fn=<NllLossBackward0>)|
+|  3   |   0   | tensor(0.2603, grad_fn=<NllLossBackward0>)|
+|  3   |  10   | tensor(0.2848, grad_fn=<NllLossBackward0>)|
+|  4   |   0   | tensor(0.3090, grad_fn=<NllLossBackward0>)|
+|  4   |  10   | tensor(0.2859, grad_fn=<NllLossBackward0>)|
+|  5   |   0   | tensor(0.0199, grad_fn=<NllLossBackward0>)|
+|  5   |  10   | tensor(0.1719, grad_fn=<NllLossBackward0>)|
+|  6   |   0   | tensor(0.1313, grad_fn=<NllLossBackward0>)|
+|  6   |  10   | tensor(0.0658, grad_fn=<NllLossBackward0>)|
+|  7   |   0   | tensor(0.0306, grad_fn=<NllLossBackward0>)|
+|  7   |  10   | tensor(0.0385, grad_fn=<NllLossBackward0>)|
+|  8   |   0   | tensor(0.0441, grad_fn=<NllLossBackward0>)|
+|  8   |  10   | tensor(0.0138, grad_fn=<NllLossBackward0>)|
+|  9   |   0   | tensor(0.0702, grad_fn=<NllLossBackward0>)|
+|  9   |  10   | tensor(0.0079, grad_fn=<NllLossBackward0>)|
+| 10   |   0   | tensor(0.0040, grad_fn=<NllLossBackward0>)|
+| 10   |  10   | tensor(0.0175, grad_fn=<NllLossBackward0>)|
+| 11   |   0   | tensor(0.0284, grad_fn=<NllLossBackward0>)|
+| 11   |  10   | tensor(0.0492, grad_fn=<NllLossBackward0>)|
+| 12   |   0   | tensor(0.0107, grad_fn=<NllLossBackward0>)|
+| 12   |  10   | tensor(0.0206, grad_fn=<NllLossBackward0>)|
+| 13   |   0   | tensor(0.0338, grad_fn=<NllLossBackward0>)|
+| 13   |  10   | tensor(0.0116, grad_fn=<NllLossBackward0>)|
+| 14   |   0   | tensor(0.0640, grad_fn=<NllLossBackward0>)|
+| 14   |  10   | tensor(0.0077, grad_fn=<NllLossBackward0>)|
+| 15   |   0   | tensor(0.0190, grad_fn=<NllLossBackward0>)|
+| 15   |  10   | tensor(0.0034, grad_fn=<NllLossBackward0>)|
+| 16   |   0   | tensor(0.0065, grad_fn=<NllLossBackward0>)|
+| 16   |  10   | tensor(0.0136, grad_fn=<NllLossBackward0>)|
+| 17   |   0   | tensor(0.0103, grad_fn=<NllLossBackward0>)|
+| 17   |  10   | tensor(0.0074, grad_fn=<NllLossBackward0>)|
+| 18   |   0   | tensor(0.0025, grad_fn=<NllLossBackward0>)|
+| 18   |  10   | tensor(0.0062, grad_fn=<NllLossBackward0>)|
+| 19   |   0   | tensor(0.0025, grad_fn=<NllLossBackward0>)|
+| 19   |  10   | tensor(0.0137, grad_fn=<NllLossBackward0>)|
+| 20   |   0   | tensor(0.0044, grad_fn=<NllLossBackward0>)|
+| 20   |  10   | tensor(0.0168, grad_fn=<NllLossBackward0>)|
+| 21   |   0   | tensor(0.0025, grad_fn=<NllLossBackward0>)|
+| 21   |  10   | tensor(0.0020, grad_fn=<NllLossBackward0>)|
+| 22   |   0   | tensor(0.0143, grad_fn=<NllLossBackward0>)|
+| 22   |  10   | tensor(0.0144, grad_fn=<NllLossBackward0>)|
+| 23   |   0   | tensor(0.0152, grad_fn=<NllLossBackward0>)|
+| 23   |  10   | tensor(0.0020, grad_fn=<NllLossBackward0>)|
+| 24   |   0   | tensor(0.0047, grad_fn=<NllLossBackward0>)|
+| 24   |  10   | tensor(0.0067, grad_fn=<NllLossBackward0>)|
+| 25   |   0   | tensor(0.0080, grad_fn=<NllLossBackward0>)|
+| 25   |  10   | tensor(0.0010, grad_fn=<NllLossBackward0>)|
++----------------------------------------------------------+
+                      Training Status                       
++----------------------------------------------------------+
+|Epoch | Steps |                    Loss                   |
+|------+-------+-------------------------------------------|
+|  0   |   0   | tensor(8.4754, grad_fn=<NllLossBackward0>)|
+|  0   |  10   | tensor(1.7911, grad_fn=<NllLossBackward0>)|
+|  1   |   0   | tensor(1.6946, grad_fn=<NllLossBackward0>)|
+|  1   |  10   | tensor(1.0421, grad_fn=<NllLossBackward0>)|
+|  2   |   0   | tensor(0.3912, grad_fn=<NllLossBackward0>)|
+|  2   |  10   | tensor(0.5993, grad_fn=<NllLossBackward0>)|
+|  3   |   0   | tensor(0.2603, grad_fn=<NllLossBackward0>)|
+|  3   |  10   | tensor(0.2848, grad_fn=<NllLossBackward0>)|
+|  4   |   0   | tensor(0.3090, grad_fn=<NllLossBackward0>)|
+|  4   |  10   | tensor(0.2859, grad_fn=<NllLossBackward0>)|
+|  5   |   0   | tensor(0.0199, grad_fn=<NllLossBackward0>)|
+|  5   |  10   | tensor(0.1719, grad_fn=<NllLossBackward0>)|
+|  6   |   0   | tensor(0.1313, grad_fn=<NllLossBackward0>)|
+|  6   |  10   | tensor(0.0658, grad_fn=<NllLossBackward0>)|
+|  7   |   0   | tensor(0.0306, grad_fn=<NllLossBackward0>)|
+|  7   |  10   | tensor(0.0385, grad_fn=<NllLossBackward0>)|
+|  8   |   0   | tensor(0.0441, grad_fn=<NllLossBackward0>)|
+|  8   |  10   | tensor(0.0138, grad_fn=<NllLossBackward0>)|
+|  9   |   0   | tensor(0.0702, grad_fn=<NllLossBackward0>)|
+|  9   |  10   | tensor(0.0079, grad_fn=<NllLossBackward0>)|
+| 10   |   0   | tensor(0.0040, grad_fn=<NllLossBackward0>)|
+| 10   |  10   | tensor(0.0175, grad_fn=<NllLossBackward0>)|
+| 11   |   0   | tensor(0.0284, grad_fn=<NllLossBackward0>)|
+| 11   |  10   | tensor(0.0492, grad_fn=<NllLossBackward0>)|
+| 12   |   0   | tensor(0.0107, grad_fn=<NllLossBackward0>)|
+| 12   |  10   | tensor(0.0206, grad_fn=<NllLossBackward0>)|
+| 13   |   0   | tensor(0.0338, grad_fn=<NllLossBackward0>)|
+| 13   |  10   | tensor(0.0116, grad_fn=<NllLossBackward0>)|
+| 14   |   0   | tensor(0.0640, grad_fn=<NllLossBackward0>)|
+| 14   |  10   | tensor(0.0077, grad_fn=<NllLossBackward0>)|
+| 15   |   0   | tensor(0.0190, grad_fn=<NllLossBackward0>)|
+| 15   |  10   | tensor(0.0034, grad_fn=<NllLossBackward0>)|
+| 16   |   0   | tensor(0.0065, grad_fn=<NllLossBackward0>)|
+| 16   |  10   | tensor(0.0136, grad_fn=<NllLossBackward0>)|
+| 17   |   0   | tensor(0.0103, grad_fn=<NllLossBackward0>)|
+| 17   |  10   | tensor(0.0074, grad_fn=<NllLossBackward0>)|
+| 18   |   0   | tensor(0.0025, grad_fn=<NllLossBackward0>)|
+| 18   |  10   | tensor(0.0062, grad_fn=<NllLossBackward0>)|
+| 19   |   0   | tensor(0.0025, grad_fn=<NllLossBackward0>)|
+| 19   |  10   | tensor(0.0137, grad_fn=<NllLossBackward0>)|
+| 20   |   0   | tensor(0.0044, grad_fn=<NllLossBackward0>)|
+| 20   |  10   | tensor(0.0168, grad_fn=<NllLossBackward0>)|
+| 21   |   0   | tensor(0.0025, grad_fn=<NllLossBackward0>)|
+| 21   |  10   | tensor(0.0020, grad_fn=<NllLossBackward0>)|
+| 22   |   0   | tensor(0.0143, grad_fn=<NllLossBackward0>)|
+| 22   |  10   | tensor(0.0144, grad_fn=<NllLossBackward0>)|
+| 23   |   0   | tensor(0.0152, grad_fn=<NllLossBackward0>)|
+| 23   |  10   | tensor(0.0020, grad_fn=<NllLossBackward0>)|
+| 24   |   0   | tensor(0.0047, grad_fn=<NllLossBackward0>)|
+| 24   |  10   | tensor(0.0067, grad_fn=<NllLossBackward0>)|
+| 25   |   0   | tensor(0.0080, grad_fn=<NllLossBackward0>)|
+| 25   |  10   | tensor(0.0010, grad_fn=<NllLossBackward0>)|
+| 26   |   0   | tensor(0.0017, grad_fn=<NllLossBackward0>)|
++----------------------------------------------------------+
+                      Training Status                       
++----------------------------------------------------------+
+|Epoch | Steps |                    Loss                   |
+|------+-------+-------------------------------------------|
+|  0   |   0   | tensor(8.4754, grad_fn=<NllLossBackward0>)|
+|  0   |  10   | tensor(1.7911, grad_fn=<NllLossBackward0>)|
+|  1   |   0   | tensor(1.6946, grad_fn=<NllLossBackward0>)|
+|  1   |  10   | tensor(1.0421, grad_fn=<NllLossBackward0>)|
+|  2   |   0   | tensor(0.3912, grad_fn=<NllLossBackward0>)|
+|  2   |  10   | tensor(0.5993, grad_fn=<NllLossBackward0>)|
+|  3   |   0   | tensor(0.2603, grad_fn=<NllLossBackward0>)|
+|  3   |  10   | tensor(0.2848, grad_fn=<NllLossBackward0>)|
+|  4   |   0   | tensor(0.3090, grad_fn=<NllLossBackward0>)|
+|  4   |  10   | tensor(0.2859, grad_fn=<NllLossBackward0>)|
+|  5   |   0   | tensor(0.0199, grad_fn=<NllLossBackward0>)|
+|  5   |  10   | tensor(0.1719, grad_fn=<NllLossBackward0>)|
+|  6   |   0   | tensor(0.1313, grad_fn=<NllLossBackward0>)|
+|  6   |  10   | tensor(0.0658, grad_fn=<NllLossBackward0>)|
+|  7   |   0   | tensor(0.0306, grad_fn=<NllLossBackward0>)|
+|  7   |  10   | tensor(0.0385, grad_fn=<NllLossBackward0>)|
+|  8   |   0   | tensor(0.0441, grad_fn=<NllLossBackward0>)|
+|  8   |  10   | tensor(0.0138, grad_fn=<NllLossBackward0>)|
+|  9   |   0   | tensor(0.0702, grad_fn=<NllLossBackward0>)|
+|  9   |  10   | tensor(0.0079, grad_fn=<NllLossBackward0>)|
+| 10   |   0   | tensor(0.0040, grad_fn=<NllLossBackward0>)|
+| 10   |  10   | tensor(0.0175, grad_fn=<NllLossBackward0>)|
+| 11   |   0   | tensor(0.0284, grad_fn=<NllLossBackward0>)|
+| 11   |  10   | tensor(0.0492, grad_fn=<NllLossBackward0>)|
+| 12   |   0   | tensor(0.0107, grad_fn=<NllLossBackward0>)|
+| 12   |  10   | tensor(0.0206, grad_fn=<NllLossBackward0>)|
+| 13   |   0   | tensor(0.0338, grad_fn=<NllLossBackward0>)|
+| 13   |  10   | tensor(0.0116, grad_fn=<NllLossBackward0>)|
+| 14   |   0   | tensor(0.0640, grad_fn=<NllLossBackward0>)|
+| 14   |  10   | tensor(0.0077, grad_fn=<NllLossBackward0>)|
+| 15   |   0   | tensor(0.0190, grad_fn=<NllLossBackward0>)|
+| 15   |  10   | tensor(0.0034, grad_fn=<NllLossBackward0>)|
+| 16   |   0   | tensor(0.0065, grad_fn=<NllLossBackward0>)|
+| 16   |  10   | tensor(0.0136, grad_fn=<NllLossBackward0>)|
+| 17   |   0   | tensor(0.0103, grad_fn=<NllLossBackward0>)|
+| 17   |  10   | tensor(0.0074, grad_fn=<NllLossBackward0>)|
+| 18   |   0   | tensor(0.0025, grad_fn=<NllLossBackward0>)|
+| 18   |  10   | tensor(0.0062, grad_fn=<NllLossBackward0>)|
+| 19   |   0   | tensor(0.0025, grad_fn=<NllLossBackward0>)|
+| 19   |  10   | tensor(0.0137, grad_fn=<NllLossBackward0>)|
+| 20   |   0   | tensor(0.0044, grad_fn=<NllLossBackward0>)|
+| 20   |  10   | tensor(0.0168, grad_fn=<NllLossBackward0>)|
+| 21   |   0   | tensor(0.0025, grad_fn=<NllLossBackward0>)|
+| 21   |  10   | tensor(0.0020, grad_fn=<NllLossBackward0>)|
+| 22   |   0   | tensor(0.0143, grad_fn=<NllLossBackward0>)|
+| 22   |  10   | tensor(0.0144, grad_fn=<NllLossBackward0>)|
+| 23   |   0   | tensor(0.0152, grad_fn=<NllLossBackward0>)|
+| 23   |  10   | tensor(0.0020, grad_fn=<NllLossBackward0>)|
+| 24   |   0   | tensor(0.0047, grad_fn=<NllLossBackward0>)|
+| 24   |  10   | tensor(0.0067, grad_fn=<NllLossBackward0>)|
+| 25   |   0   | tensor(0.0080, grad_fn=<NllLossBackward0>)|
+| 25   |  10   | tensor(0.0010, grad_fn=<NllLossBackward0>)|
+| 26   |   0   | tensor(0.0017, grad_fn=<NllLossBackward0>)|
+| 26   |  10   | tensor(0.0013, grad_fn=<NllLossBackward0>)|
++----------------------------------------------------------+
+                      Training Status                       
++----------------------------------------------------------+
+|Epoch | Steps |                    Loss                   |
+|------+-------+-------------------------------------------|
+|  0   |   0   | tensor(8.4754, grad_fn=<NllLossBackward0>)|
+|  0   |  10   | tensor(1.7911, grad_fn=<NllLossBackward0>)|
+|  1   |   0   | tensor(1.6946, grad_fn=<NllLossBackward0>)|
+|  1   |  10   | tensor(1.0421, grad_fn=<NllLossBackward0>)|
+|  2   |   0   | tensor(0.3912, grad_fn=<NllLossBackward0>)|
+|  2   |  10   | tensor(0.5993, grad_fn=<NllLossBackward0>)|
+|  3   |   0   | tensor(0.2603, grad_fn=<NllLossBackward0>)|
+|  3   |  10   | tensor(0.2848, grad_fn=<NllLossBackward0>)|
+|  4   |   0   | tensor(0.3090, grad_fn=<NllLossBackward0>)|
+|  4   |  10   | tensor(0.2859, grad_fn=<NllLossBackward0>)|
+|  5   |   0   | tensor(0.0199, grad_fn=<NllLossBackward0>)|
+|  5   |  10   | tensor(0.1719, grad_fn=<NllLossBackward0>)|
+|  6   |   0   | tensor(0.1313, grad_fn=<NllLossBackward0>)|
+|  6   |  10   | tensor(0.0658, grad_fn=<NllLossBackward0>)|
+|  7   |   0   | tensor(0.0306, grad_fn=<NllLossBackward0>)|
+|  7   |  10   | tensor(0.0385, grad_fn=<NllLossBackward0>)|
+|  8   |   0   | tensor(0.0441, grad_fn=<NllLossBackward0>)|
+|  8   |  10   | tensor(0.0138, grad_fn=<NllLossBackward0>)|
+|  9   |   0   | tensor(0.0702, grad_fn=<NllLossBackward0>)|
+|  9   |  10   | tensor(0.0079, grad_fn=<NllLossBackward0>)|
+| 10   |   0   | tensor(0.0040, grad_fn=<NllLossBackward0>)|
+| 10   |  10   | tensor(0.0175, grad_fn=<NllLossBackward0>)|
+| 11   |   0   | tensor(0.0284, grad_fn=<NllLossBackward0>)|
+| 11   |  10   | tensor(0.0492, grad_fn=<NllLossBackward0>)|
+| 12   |   0   | tensor(0.0107, grad_fn=<NllLossBackward0>)|
+| 12   |  10   | tensor(0.0206, grad_fn=<NllLossBackward0>)|
+| 13   |   0   | tensor(0.0338, grad_fn=<NllLossBackward0>)|
+| 13   |  10   | tensor(0.0116, grad_fn=<NllLossBackward0>)|
+| 14   |   0   | tensor(0.0640, grad_fn=<NllLossBackward0>)|
+| 14   |  10   | tensor(0.0077, grad_fn=<NllLossBackward0>)|
+| 15   |   0   | tensor(0.0190, grad_fn=<NllLossBackward0>)|
+| 15   |  10   | tensor(0.0034, grad_fn=<NllLossBackward0>)|
+| 16   |   0   | tensor(0.0065, grad_fn=<NllLossBackward0>)|
+| 16   |  10   | tensor(0.0136, grad_fn=<NllLossBackward0>)|
+| 17   |   0   | tensor(0.0103, grad_fn=<NllLossBackward0>)|
+| 17   |  10   | tensor(0.0074, grad_fn=<NllLossBackward0>)|
+| 18   |   0   | tensor(0.0025, grad_fn=<NllLossBackward0>)|
+| 18   |  10   | tensor(0.0062, grad_fn=<NllLossBackward0>)|
+| 19   |   0   | tensor(0.0025, grad_fn=<NllLossBackward0>)|
+| 19   |  10   | tensor(0.0137, grad_fn=<NllLossBackward0>)|
+| 20   |   0   | tensor(0.0044, grad_fn=<NllLossBackward0>)|
+| 20   |  10   | tensor(0.0168, grad_fn=<NllLossBackward0>)|
+| 21   |   0   | tensor(0.0025, grad_fn=<NllLossBackward0>)|
+| 21   |  10   | tensor(0.0020, grad_fn=<NllLossBackward0>)|
+| 22   |   0   | tensor(0.0143, grad_fn=<NllLossBackward0>)|
+| 22   |  10   | tensor(0.0144, grad_fn=<NllLossBackward0>)|
+| 23   |   0   | tensor(0.0152, grad_fn=<NllLossBackward0>)|
+| 23   |  10   | tensor(0.0020, grad_fn=<NllLossBackward0>)|
+| 24   |   0   | tensor(0.0047, grad_fn=<NllLossBackward0>)|
+| 24   |  10   | tensor(0.0067, grad_fn=<NllLossBackward0>)|
+| 25   |   0   | tensor(0.0080, grad_fn=<NllLossBackward0>)|
+| 25   |  10   | tensor(0.0010, grad_fn=<NllLossBackward0>)|
+| 26   |   0   | tensor(0.0017, grad_fn=<NllLossBackward0>)|
+| 26   |  10   | tensor(0.0013, grad_fn=<NllLossBackward0>)|
+| 27   |   0   | tensor(0.0015, grad_fn=<NllLossBackward0>)|
++----------------------------------------------------------+
+                      Training Status                       
++----------------------------------------------------------+
+|Epoch | Steps |                    Loss                   |
+|------+-------+-------------------------------------------|
+|  0   |   0   | tensor(8.4754, grad_fn=<NllLossBackward0>)|
+|  0   |  10   | tensor(1.7911, grad_fn=<NllLossBackward0>)|
+|  1   |   0   | tensor(1.6946, grad_fn=<NllLossBackward0>)|
+|  1   |  10   | tensor(1.0421, grad_fn=<NllLossBackward0>)|
+|  2   |   0   | tensor(0.3912, grad_fn=<NllLossBackward0>)|
+|  2   |  10   | tensor(0.5993, grad_fn=<NllLossBackward0>)|
+|  3   |   0   | tensor(0.2603, grad_fn=<NllLossBackward0>)|
+|  3   |  10   | tensor(0.2848, grad_fn=<NllLossBackward0>)|
+|  4   |   0   | tensor(0.3090, grad_fn=<NllLossBackward0>)|
+|  4   |  10   | tensor(0.2859, grad_fn=<NllLossBackward0>)|
+|  5   |   0   | tensor(0.0199, grad_fn=<NllLossBackward0>)|
+|  5   |  10   | tensor(0.1719, grad_fn=<NllLossBackward0>)|
+|  6   |   0   | tensor(0.1313, grad_fn=<NllLossBackward0>)|
+|  6   |  10   | tensor(0.0658, grad_fn=<NllLossBackward0>)|
+|  7   |   0   | tensor(0.0306, grad_fn=<NllLossBackward0>)|
+|  7   |  10   | tensor(0.0385, grad_fn=<NllLossBackward0>)|
+|  8   |   0   | tensor(0.0441, grad_fn=<NllLossBackward0>)|
+|  8   |  10   | tensor(0.0138, grad_fn=<NllLossBackward0>)|
+|  9   |   0   | tensor(0.0702, grad_fn=<NllLossBackward0>)|
+|  9   |  10   | tensor(0.0079, grad_fn=<NllLossBackward0>)|
+| 10   |   0   | tensor(0.0040, grad_fn=<NllLossBackward0>)|
+| 10   |  10   | tensor(0.0175, grad_fn=<NllLossBackward0>)|
+| 11   |   0   | tensor(0.0284, grad_fn=<NllLossBackward0>)|
+| 11   |  10   | tensor(0.0492, grad_fn=<NllLossBackward0>)|
+| 12   |   0   | tensor(0.0107, grad_fn=<NllLossBackward0>)|
+| 12   |  10   | tensor(0.0206, grad_fn=<NllLossBackward0>)|
+| 13   |   0   | tensor(0.0338, grad_fn=<NllLossBackward0>)|
+| 13   |  10   | tensor(0.0116, grad_fn=<NllLossBackward0>)|
+| 14   |   0   | tensor(0.0640, grad_fn=<NllLossBackward0>)|
+| 14   |  10   | tensor(0.0077, grad_fn=<NllLossBackward0>)|
+| 15   |   0   | tensor(0.0190, grad_fn=<NllLossBackward0>)|
+| 15   |  10   | tensor(0.0034, grad_fn=<NllLossBackward0>)|
+| 16   |   0   | tensor(0.0065, grad_fn=<NllLossBackward0>)|
+| 16   |  10   | tensor(0.0136, grad_fn=<NllLossBackward0>)|
+| 17   |   0   | tensor(0.0103, grad_fn=<NllLossBackward0>)|
+| 17   |  10   | tensor(0.0074, grad_fn=<NllLossBackward0>)|
+| 18   |   0   | tensor(0.0025, grad_fn=<NllLossBackward0>)|
+| 18   |  10   | tensor(0.0062, grad_fn=<NllLossBackward0>)|
+| 19   |   0   | tensor(0.0025, grad_fn=<NllLossBackward0>)|
+| 19   |  10   | tensor(0.0137, grad_fn=<NllLossBackward0>)|
+| 20   |   0   | tensor(0.0044, grad_fn=<NllLossBackward0>)|
+| 20   |  10   | tensor(0.0168, grad_fn=<NllLossBackward0>)|
+| 21   |   0   | tensor(0.0025, grad_fn=<NllLossBackward0>)|
+| 21   |  10   | tensor(0.0020, grad_fn=<NllLossBackward0>)|
+| 22   |   0   | tensor(0.0143, grad_fn=<NllLossBackward0>)|
+| 22   |  10   | tensor(0.0144, grad_fn=<NllLossBackward0>)|
+| 23   |   0   | tensor(0.0152, grad_fn=<NllLossBackward0>)|
+| 23   |  10   | tensor(0.0020, grad_fn=<NllLossBackward0>)|
+| 24   |   0   | tensor(0.0047, grad_fn=<NllLossBackward0>)|
+| 24   |  10   | tensor(0.0067, grad_fn=<NllLossBackward0>)|
+| 25   |   0   | tensor(0.0080, grad_fn=<NllLossBackward0>)|
+| 25   |  10   | tensor(0.0010, grad_fn=<NllLossBackward0>)|
+| 26   |   0   | tensor(0.0017, grad_fn=<NllLossBackward0>)|
+| 26   |  10   | tensor(0.0013, grad_fn=<NllLossBackward0>)|
+| 27   |   0   | tensor(0.0015, grad_fn=<NllLossBackward0>)|
+| 27   |  10   | tensor(0.0018, grad_fn=<NllLossBackward0>)|
++----------------------------------------------------------+
+                      Training Status                       
++----------------------------------------------------------+
+|Epoch | Steps |                    Loss                   |
+|------+-------+-------------------------------------------|
+|  0   |   0   | tensor(8.4754, grad_fn=<NllLossBackward0>)|
+|  0   |  10   | tensor(1.7911, grad_fn=<NllLossBackward0>)|
+|  1   |   0   | tensor(1.6946, grad_fn=<NllLossBackward0>)|
+|  1   |  10   | tensor(1.0421, grad_fn=<NllLossBackward0>)|
+|  2   |   0   | tensor(0.3912, grad_fn=<NllLossBackward0>)|
+|  2   |  10   | tensor(0.5993, grad_fn=<NllLossBackward0>)|
+|  3   |   0   | tensor(0.2603, grad_fn=<NllLossBackward0>)|
+|  3   |  10   | tensor(0.2848, grad_fn=<NllLossBackward0>)|
+|  4   |   0   | tensor(0.3090, grad_fn=<NllLossBackward0>)|
+|  4   |  10   | tensor(0.2859, grad_fn=<NllLossBackward0>)|
+|  5   |   0   | tensor(0.0199, grad_fn=<NllLossBackward0>)|
+|  5   |  10   | tensor(0.1719, grad_fn=<NllLossBackward0>)|
+|  6   |   0   | tensor(0.1313, grad_fn=<NllLossBackward0>)|
+|  6   |  10   | tensor(0.0658, grad_fn=<NllLossBackward0>)|
+|  7   |   0   | tensor(0.0306, grad_fn=<NllLossBackward0>)|
+|  7   |  10   | tensor(0.0385, grad_fn=<NllLossBackward0>)|
+|  8   |   0   | tensor(0.0441, grad_fn=<NllLossBackward0>)|
+|  8   |  10   | tensor(0.0138, grad_fn=<NllLossBackward0>)|
+|  9   |   0   | tensor(0.0702, grad_fn=<NllLossBackward0>)|
+|  9   |  10   | tensor(0.0079, grad_fn=<NllLossBackward0>)|
+| 10   |   0   | tensor(0.0040, grad_fn=<NllLossBackward0>)|
+| 10   |  10   | tensor(0.0175, grad_fn=<NllLossBackward0>)|
+| 11   |   0   | tensor(0.0284, grad_fn=<NllLossBackward0>)|
+| 11   |  10   | tensor(0.0492, grad_fn=<NllLossBackward0>)|
+| 12   |   0   | tensor(0.0107, grad_fn=<NllLossBackward0>)|
+| 12   |  10   | tensor(0.0206, grad_fn=<NllLossBackward0>)|
+| 13   |   0   | tensor(0.0338, grad_fn=<NllLossBackward0>)|
+| 13   |  10   | tensor(0.0116, grad_fn=<NllLossBackward0>)|
+| 14   |   0   | tensor(0.0640, grad_fn=<NllLossBackward0>)|
+| 14   |  10   | tensor(0.0077, grad_fn=<NllLossBackward0>)|
+| 15   |   0   | tensor(0.0190, grad_fn=<NllLossBackward0>)|
+| 15   |  10   | tensor(0.0034, grad_fn=<NllLossBackward0>)|
+| 16   |   0   | tensor(0.0065, grad_fn=<NllLossBackward0>)|
+| 16   |  10   | tensor(0.0136, grad_fn=<NllLossBackward0>)|
+| 17   |   0   | tensor(0.0103, grad_fn=<NllLossBackward0>)|
+| 17   |  10   | tensor(0.0074, grad_fn=<NllLossBackward0>)|
+| 18   |   0   | tensor(0.0025, grad_fn=<NllLossBackward0>)|
+| 18   |  10   | tensor(0.0062, grad_fn=<NllLossBackward0>)|
+| 19   |   0   | tensor(0.0025, grad_fn=<NllLossBackward0>)|
+| 19   |  10   | tensor(0.0137, grad_fn=<NllLossBackward0>)|
+| 20   |   0   | tensor(0.0044, grad_fn=<NllLossBackward0>)|
+| 20   |  10   | tensor(0.0168, grad_fn=<NllLossBackward0>)|
+| 21   |   0   | tensor(0.0025, grad_fn=<NllLossBackward0>)|
+| 21   |  10   | tensor(0.0020, grad_fn=<NllLossBackward0>)|
+| 22   |   0   | tensor(0.0143, grad_fn=<NllLossBackward0>)|
+| 22   |  10   | tensor(0.0144, grad_fn=<NllLossBackward0>)|
+| 23   |   0   | tensor(0.0152, grad_fn=<NllLossBackward0>)|
+| 23   |  10   | tensor(0.0020, grad_fn=<NllLossBackward0>)|
+| 24   |   0   | tensor(0.0047, grad_fn=<NllLossBackward0>)|
+| 24   |  10   | tensor(0.0067, grad_fn=<NllLossBackward0>)|
+| 25   |   0   | tensor(0.0080, grad_fn=<NllLossBackward0>)|
+| 25   |  10   | tensor(0.0010, grad_fn=<NllLossBackward0>)|
+| 26   |   0   | tensor(0.0017, grad_fn=<NllLossBackward0>)|
+| 26   |  10   | tensor(0.0013, grad_fn=<NllLossBackward0>)|
+| 27   |   0   | tensor(0.0015, grad_fn=<NllLossBackward0>)|
+| 27   |  10   | tensor(0.0018, grad_fn=<NllLossBackward0>)|
+| 28   |   0   | tensor(0.0015, grad_fn=<NllLossBackward0>)|
++----------------------------------------------------------+
+                      Training Status                       
++----------------------------------------------------------+
+|Epoch | Steps |                    Loss                   |
+|------+-------+-------------------------------------------|
+|  0   |   0   | tensor(8.4754, grad_fn=<NllLossBackward0>)|
+|  0   |  10   | tensor(1.7911, grad_fn=<NllLossBackward0>)|
+|  1   |   0   | tensor(1.6946, grad_fn=<NllLossBackward0>)|
+|  1   |  10   | tensor(1.0421, grad_fn=<NllLossBackward0>)|
+|  2   |   0   | tensor(0.3912, grad_fn=<NllLossBackward0>)|
+|  2   |  10   | tensor(0.5993, grad_fn=<NllLossBackward0>)|
+|  3   |   0   | tensor(0.2603, grad_fn=<NllLossBackward0>)|
+|  3   |  10   | tensor(0.2848, grad_fn=<NllLossBackward0>)|
+|  4   |   0   | tensor(0.3090, grad_fn=<NllLossBackward0>)|
+|  4   |  10   | tensor(0.2859, grad_fn=<NllLossBackward0>)|
+|  5   |   0   | tensor(0.0199, grad_fn=<NllLossBackward0>)|
+|  5   |  10   | tensor(0.1719, grad_fn=<NllLossBackward0>)|
+|  6   |   0   | tensor(0.1313, grad_fn=<NllLossBackward0>)|
+|  6   |  10   | tensor(0.0658, grad_fn=<NllLossBackward0>)|
+|  7   |   0   | tensor(0.0306, grad_fn=<NllLossBackward0>)|
+|  7   |  10   | tensor(0.0385, grad_fn=<NllLossBackward0>)|
+|  8   |   0   | tensor(0.0441, grad_fn=<NllLossBackward0>)|
+|  8   |  10   | tensor(0.0138, grad_fn=<NllLossBackward0>)|
+|  9   |   0   | tensor(0.0702, grad_fn=<NllLossBackward0>)|
+|  9   |  10   | tensor(0.0079, grad_fn=<NllLossBackward0>)|
+| 10   |   0   | tensor(0.0040, grad_fn=<NllLossBackward0>)|
+| 10   |  10   | tensor(0.0175, grad_fn=<NllLossBackward0>)|
+| 11   |   0   | tensor(0.0284, grad_fn=<NllLossBackward0>)|
+| 11   |  10   | tensor(0.0492, grad_fn=<NllLossBackward0>)|
+| 12   |   0   | tensor(0.0107, grad_fn=<NllLossBackward0>)|
+| 12   |  10   | tensor(0.0206, grad_fn=<NllLossBackward0>)|
+| 13   |   0   | tensor(0.0338, grad_fn=<NllLossBackward0>)|
+| 13   |  10   | tensor(0.0116, grad_fn=<NllLossBackward0>)|
+| 14   |   0   | tensor(0.0640, grad_fn=<NllLossBackward0>)|
+| 14   |  10   | tensor(0.0077, grad_fn=<NllLossBackward0>)|
+| 15   |   0   | tensor(0.0190, grad_fn=<NllLossBackward0>)|
+| 15   |  10   | tensor(0.0034, grad_fn=<NllLossBackward0>)|
+| 16   |   0   | tensor(0.0065, grad_fn=<NllLossBackward0>)|
+| 16   |  10   | tensor(0.0136, grad_fn=<NllLossBackward0>)|
+| 17   |   0   | tensor(0.0103, grad_fn=<NllLossBackward0>)|
+| 17   |  10   | tensor(0.0074, grad_fn=<NllLossBackward0>)|
+| 18   |   0   | tensor(0.0025, grad_fn=<NllLossBackward0>)|
+| 18   |  10   | tensor(0.0062, grad_fn=<NllLossBackward0>)|
+| 19   |   0   | tensor(0.0025, grad_fn=<NllLossBackward0>)|
+| 19   |  10   | tensor(0.0137, grad_fn=<NllLossBackward0>)|
+| 20   |   0   | tensor(0.0044, grad_fn=<NllLossBackward0>)|
+| 20   |  10   | tensor(0.0168, grad_fn=<NllLossBackward0>)|
+| 21   |   0   | tensor(0.0025, grad_fn=<NllLossBackward0>)|
+| 21   |  10   | tensor(0.0020, grad_fn=<NllLossBackward0>)|
+| 22   |   0   | tensor(0.0143, grad_fn=<NllLossBackward0>)|
+| 22   |  10   | tensor(0.0144, grad_fn=<NllLossBackward0>)|
+| 23   |   0   | tensor(0.0152, grad_fn=<NllLossBackward0>)|
+| 23   |  10   | tensor(0.0020, grad_fn=<NllLossBackward0>)|
+| 24   |   0   | tensor(0.0047, grad_fn=<NllLossBackward0>)|
+| 24   |  10   | tensor(0.0067, grad_fn=<NllLossBackward0>)|
+| 25   |   0   | tensor(0.0080, grad_fn=<NllLossBackward0>)|
+| 25   |  10   | tensor(0.0010, grad_fn=<NllLossBackward0>)|
+| 26   |   0   | tensor(0.0017, grad_fn=<NllLossBackward0>)|
+| 26   |  10   | tensor(0.0013, grad_fn=<NllLossBackward0>)|
+| 27   |   0   | tensor(0.0015, grad_fn=<NllLossBackward0>)|
+| 27   |  10   | tensor(0.0018, grad_fn=<NllLossBackward0>)|
+| 28   |   0   | tensor(0.0015, grad_fn=<NllLossBackward0>)|
+| 28   |  10   | tensor(0.0014, grad_fn=<NllLossBackward0>)|
++----------------------------------------------------------+
+                      Training Status                       
++----------------------------------------------------------+
+|Epoch | Steps |                    Loss                   |
+|------+-------+-------------------------------------------|
+|  0   |   0   | tensor(8.4754, grad_fn=<NllLossBackward0>)|
+|  0   |  10   | tensor(1.7911, grad_fn=<NllLossBackward0>)|
+|  1   |   0   | tensor(1.6946, grad_fn=<NllLossBackward0>)|
+|  1   |  10   | tensor(1.0421, grad_fn=<NllLossBackward0>)|
+|  2   |   0   | tensor(0.3912, grad_fn=<NllLossBackward0>)|
+|  2   |  10   | tensor(0.5993, grad_fn=<NllLossBackward0>)|
+|  3   |   0   | tensor(0.2603, grad_fn=<NllLossBackward0>)|
+|  3   |  10   | tensor(0.2848, grad_fn=<NllLossBackward0>)|
+|  4   |   0   | tensor(0.3090, grad_fn=<NllLossBackward0>)|
+|  4   |  10   | tensor(0.2859, grad_fn=<NllLossBackward0>)|
+|  5   |   0   | tensor(0.0199, grad_fn=<NllLossBackward0>)|
+|  5   |  10   | tensor(0.1719, grad_fn=<NllLossBackward0>)|
+|  6   |   0   | tensor(0.1313, grad_fn=<NllLossBackward0>)|
+|  6   |  10   | tensor(0.0658, grad_fn=<NllLossBackward0>)|
+|  7   |   0   | tensor(0.0306, grad_fn=<NllLossBackward0>)|
+|  7   |  10   | tensor(0.0385, grad_fn=<NllLossBackward0>)|
+|  8   |   0   | tensor(0.0441, grad_fn=<NllLossBackward0>)|
+|  8   |  10   | tensor(0.0138, grad_fn=<NllLossBackward0>)|
+|  9   |   0   | tensor(0.0702, grad_fn=<NllLossBackward0>)|
+|  9   |  10   | tensor(0.0079, grad_fn=<NllLossBackward0>)|
+| 10   |   0   | tensor(0.0040, grad_fn=<NllLossBackward0>)|
+| 10   |  10   | tensor(0.0175, grad_fn=<NllLossBackward0>)|
+| 11   |   0   | tensor(0.0284, grad_fn=<NllLossBackward0>)|
+| 11   |  10   | tensor(0.0492, grad_fn=<NllLossBackward0>)|
+| 12   |   0   | tensor(0.0107, grad_fn=<NllLossBackward0>)|
+| 12   |  10   | tensor(0.0206, grad_fn=<NllLossBackward0>)|
+| 13   |   0   | tensor(0.0338, grad_fn=<NllLossBackward0>)|
+| 13   |  10   | tensor(0.0116, grad_fn=<NllLossBackward0>)|
+| 14   |   0   | tensor(0.0640, grad_fn=<NllLossBackward0>)|
+| 14   |  10   | tensor(0.0077, grad_fn=<NllLossBackward0>)|
+| 15   |   0   | tensor(0.0190, grad_fn=<NllLossBackward0>)|
+| 15   |  10   | tensor(0.0034, grad_fn=<NllLossBackward0>)|
+| 16   |   0   | tensor(0.0065, grad_fn=<NllLossBackward0>)|
+| 16   |  10   | tensor(0.0136, grad_fn=<NllLossBackward0>)|
+| 17   |   0   | tensor(0.0103, grad_fn=<NllLossBackward0>)|
+| 17   |  10   | tensor(0.0074, grad_fn=<NllLossBackward0>)|
+| 18   |   0   | tensor(0.0025, grad_fn=<NllLossBackward0>)|
+| 18   |  10   | tensor(0.0062, grad_fn=<NllLossBackward0>)|
+| 19   |   0   | tensor(0.0025, grad_fn=<NllLossBackward0>)|
+| 19   |  10   | tensor(0.0137, grad_fn=<NllLossBackward0>)|
+| 20   |   0   | tensor(0.0044, grad_fn=<NllLossBackward0>)|
+| 20   |  10   | tensor(0.0168, grad_fn=<NllLossBackward0>)|
+| 21   |   0   | tensor(0.0025, grad_fn=<NllLossBackward0>)|
+| 21   |  10   | tensor(0.0020, grad_fn=<NllLossBackward0>)|
+| 22   |   0   | tensor(0.0143, grad_fn=<NllLossBackward0>)|
+| 22   |  10   | tensor(0.0144, grad_fn=<NllLossBackward0>)|
+| 23   |   0   | tensor(0.0152, grad_fn=<NllLossBackward0>)|
+| 23   |  10   | tensor(0.0020, grad_fn=<NllLossBackward0>)|
+| 24   |   0   | tensor(0.0047, grad_fn=<NllLossBackward0>)|
+| 24   |  10   | tensor(0.0067, grad_fn=<NllLossBackward0>)|
+| 25   |   0   | tensor(0.0080, grad_fn=<NllLossBackward0>)|
+| 25   |  10   | tensor(0.0010, grad_fn=<NllLossBackward0>)|
+| 26   |   0   | tensor(0.0017, grad_fn=<NllLossBackward0>)|
+| 26   |  10   | tensor(0.0013, grad_fn=<NllLossBackward0>)|
+| 27   |   0   | tensor(0.0015, grad_fn=<NllLossBackward0>)|
+| 27   |  10   | tensor(0.0018, grad_fn=<NllLossBackward0>)|
+| 28   |   0   | tensor(0.0015, grad_fn=<NllLossBackward0>)|
+| 28   |  10   | tensor(0.0014, grad_fn=<NllLossBackward0>)|
+| 29   |   0   | tensor(0.0019, grad_fn=<NllLossBackward0>)|
++----------------------------------------------------------+
+                      Training Status                       
++----------------------------------------------------------+
+|Epoch | Steps |                    Loss                   |
+|------+-------+-------------------------------------------|
+|  0   |   0   | tensor(8.4754, grad_fn=<NllLossBackward0>)|
+|  0   |  10   | tensor(1.7911, grad_fn=<NllLossBackward0>)|
+|  1   |   0   | tensor(1.6946, grad_fn=<NllLossBackward0>)|
+|  1   |  10   | tensor(1.0421, grad_fn=<NllLossBackward0>)|
+|  2   |   0   | tensor(0.3912, grad_fn=<NllLossBackward0>)|
+|  2   |  10   | tensor(0.5993, grad_fn=<NllLossBackward0>)|
+|  3   |   0   | tensor(0.2603, grad_fn=<NllLossBackward0>)|
+|  3   |  10   | tensor(0.2848, grad_fn=<NllLossBackward0>)|
+|  4   |   0   | tensor(0.3090, grad_fn=<NllLossBackward0>)|
+|  4   |  10   | tensor(0.2859, grad_fn=<NllLossBackward0>)|
+|  5   |   0   | tensor(0.0199, grad_fn=<NllLossBackward0>)|
+|  5   |  10   | tensor(0.1719, grad_fn=<NllLossBackward0>)|
+|  6   |   0   | tensor(0.1313, grad_fn=<NllLossBackward0>)|
+|  6   |  10   | tensor(0.0658, grad_fn=<NllLossBackward0>)|
+|  7   |   0   | tensor(0.0306, grad_fn=<NllLossBackward0>)|
+|  7   |  10   | tensor(0.0385, grad_fn=<NllLossBackward0>)|
+|  8   |   0   | tensor(0.0441, grad_fn=<NllLossBackward0>)|
+|  8   |  10   | tensor(0.0138, grad_fn=<NllLossBackward0>)|
+|  9   |   0   | tensor(0.0702, grad_fn=<NllLossBackward0>)|
+|  9   |  10   | tensor(0.0079, grad_fn=<NllLossBackward0>)|
+| 10   |   0   | tensor(0.0040, grad_fn=<NllLossBackward0>)|
+| 10   |  10   | tensor(0.0175, grad_fn=<NllLossBackward0>)|
+| 11   |   0   | tensor(0.0284, grad_fn=<NllLossBackward0>)|
+| 11   |  10   | tensor(0.0492, grad_fn=<NllLossBackward0>)|
+| 12   |   0   | tensor(0.0107, grad_fn=<NllLossBackward0>)|
+| 12   |  10   | tensor(0.0206, grad_fn=<NllLossBackward0>)|
+| 13   |   0   | tensor(0.0338, grad_fn=<NllLossBackward0>)|
+| 13   |  10   | tensor(0.0116, grad_fn=<NllLossBackward0>)|
+| 14   |   0   | tensor(0.0640, grad_fn=<NllLossBackward0>)|
+| 14   |  10   | tensor(0.0077, grad_fn=<NllLossBackward0>)|
+| 15   |   0   | tensor(0.0190, grad_fn=<NllLossBackward0>)|
+| 15   |  10   | tensor(0.0034, grad_fn=<NllLossBackward0>)|
+| 16   |   0   | tensor(0.0065, grad_fn=<NllLossBackward0>)|
+| 16   |  10   | tensor(0.0136, grad_fn=<NllLossBackward0>)|
+| 17   |   0   | tensor(0.0103, grad_fn=<NllLossBackward0>)|
+| 17   |  10   | tensor(0.0074, grad_fn=<NllLossBackward0>)|
+| 18   |   0   | tensor(0.0025, grad_fn=<NllLossBackward0>)|
+| 18   |  10   | tensor(0.0062, grad_fn=<NllLossBackward0>)|
+| 19   |   0   | tensor(0.0025, grad_fn=<NllLossBackward0>)|
+| 19   |  10   | tensor(0.0137, grad_fn=<NllLossBackward0>)|
+| 20   |   0   | tensor(0.0044, grad_fn=<NllLossBackward0>)|
+| 20   |  10   | tensor(0.0168, grad_fn=<NllLossBackward0>)|
+| 21   |   0   | tensor(0.0025, grad_fn=<NllLossBackward0>)|
+| 21   |  10   | tensor(0.0020, grad_fn=<NllLossBackward0>)|
+| 22   |   0   | tensor(0.0143, grad_fn=<NllLossBackward0>)|
+| 22   |  10   | tensor(0.0144, grad_fn=<NllLossBackward0>)|
+| 23   |   0   | tensor(0.0152, grad_fn=<NllLossBackward0>)|
+| 23   |  10   | tensor(0.0020, grad_fn=<NllLossBackward0>)|
+| 24   |   0   | tensor(0.0047, grad_fn=<NllLossBackward0>)|
+| 24   |  10   | tensor(0.0067, grad_fn=<NllLossBackward0>)|
+| 25   |   0   | tensor(0.0080, grad_fn=<NllLossBackward0>)|
+| 25   |  10   | tensor(0.0010, grad_fn=<NllLossBackward0>)|
+| 26   |   0   | tensor(0.0017, grad_fn=<NllLossBackward0>)|
+| 26   |  10   | tensor(0.0013, grad_fn=<NllLossBackward0>)|
+| 27   |   0   | tensor(0.0015, grad_fn=<NllLossBackward0>)|
+| 27   |  10   | tensor(0.0018, grad_fn=<NllLossBackward0>)|
+| 28   |   0   | tensor(0.0015, grad_fn=<NllLossBackward0>)|
+| 28   |  10   | tensor(0.0014, grad_fn=<NllLossBackward0>)|
+| 29   |   0   | tensor(0.0019, grad_fn=<NllLossBackward0>)|
+| 29   |  10   | tensor(0.0089, grad_fn=<NllLossBackward0>)|
++----------------------------------------------------------+
+[21:48:32] [Saving Model]...                               <ipython-input-10-574132b7a0b1>:90
+                                                                                             
+[21:48:40] [Initiating Validation]...                      <ipython-input-10-574132b7a0b1>:97
+                                                                                             
+Completed 0
+Completed 0

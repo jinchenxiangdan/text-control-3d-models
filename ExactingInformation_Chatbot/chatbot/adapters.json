@@ -1,0 +1,40 @@
+{
+    "logic_adapters": [
+    {
+        "import_path": "chatterbot.logic.BestMatch",
+        "default_response": "I am sorry, but I do not understand.",
+        "maximum_similarity_threshold": 0.90
+    },
+    {
+        "import_path": "chatterbot.logic.SpecificResponseAdapter",
+        "input_text": "Help me!",
+        "output_text": "Ok, here is a link: http://chatterbot.rtfd.org"
+    },
+    {
+        "import_path": "chatterbot.logic.SpecificResponseAdapter",
+        "input_text": "Help me",
+        "output_text": "Ok, here is a link: http://chatterbot.rtfd.org"
+    },
+    {
+        "import_path": "chatterbot.logic.SpecificResponseAdapter",
+        "input_text": "help",
+        "output_text": "Ok, here is a link: http://chatterbot.rtfd.org"
+    },
+    {
+        "import_path": "chatterbot.logic.SpecificResponseAdapter",
+        "input_text": "Where am i?",
+        "output_text": "You are in a magic world."
+    },
+    {
+        "import_path": "chatterbot.logic.SpecificResponseAdapter",
+        "input_text": "where am i",
+        "output_text": "You are in a magic world."
+    },
+    {
+        "import_path": "chatterbot.logic.SpecificResponseAdapter",
+        "input_text": "what should i do",
+        "output_text": "You can talk to someone to ask for help."
+    }
+    ],
+    "storage_adapter": "storage_adapter='chatterbot.storage.SQLStorageAdapter"
+}

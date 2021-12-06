@@ -4,7 +4,10 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - 3d_object
+  - Projectile
+  - TutorialRequirement
+  - AIMoveBoard
+  - AIStaticBoard
   layers:
   - Default
   - TransparentFX
@@ -15,11 +18,11 @@ TagManager:
   - 
   - 
   - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Player
+  - Hazard
+  - Environment
+  - ConnectivityReceptor
+  - ConnectivityConnector
   - 
   - 
   - 
